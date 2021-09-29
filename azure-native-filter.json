@@ -1,0 +1,4759 @@
+{
+    "Modules": [
+        {
+            "Name": "aad",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DomainService",
+                        "OuContainer"
+                    ],
+                    "Functions": [
+                        "getDomainService",
+                        "getOuContainer"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "aadiam",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DiagnosticSetting",
+                        "PrivateEndpointConnection",
+                        "azureADMetric",
+                        "privateLinkForAzureAd"
+                    ],
+                    "Functions": [
+                        "getDiagnosticSetting",
+                        "getPrivateEndpointConnection",
+                        "getazureADMetric",
+                        "getprivateLinkForAzureAd"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "addons",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "SupportPlanType"
+                    ],
+                    "Functions": [
+                        "getSupportPlanType"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "advisor",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Suppression"
+                    ],
+                    "Functions": [
+                        "getSuppression"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "agfoodplatform",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Extension",
+                        "FarmBeatsModel"
+                    ],
+                    "Functions": [
+                        "getExtension",
+                        "getFarmBeatsModel"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "alertsmanagement",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ActionRuleByName",
+                        "HealthAlert",
+                        "SmartDetectorAlertRule"
+                    ],
+                    "Functions": [
+                        "getActionRuleByName",
+                        "getHealthAlert",
+                        "getSmartDetectorAlertRule"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "analysisservices",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ServerDetails"
+                    ],
+                    "Functions": [
+                        "getServerDetails",
+                        "listServerGatewayStatus"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "apimanagement",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Api",
+                        "ApiDiagnostic",
+                        "ApiDiagnosticLogger",
+                        "ApiIssue",
+                        "ApiIssueAttachment",
+                        "ApiIssueComment",
+                        "ApiManagementService",
+                        "ApiOperation",
+                        "ApiOperationPolicy",
+                        "ApiPolicy",
+                        "ApiRelease",
+                        "ApiSchema",
+                        "ApiTagDescription",
+                        "ApiVersionSet",
+                        "AuthorizationServer",
+                        "Backend",
+                        "Cache",
+                        "Certificate",
+                        "ContentItem",
+                        "ContentType",
+                        "Diagnostic",
+                        "DiagnosticLogger",
+                        "EmailTemplate",
+                        "Gateway",
+                        "GatewayApiEntityTag",
+                        "GatewayCertificateAuthority",
+                        "GatewayHostnameConfiguration",
+                        "Group",
+                        "GroupUser",
+                        "IdentityProvider",
+                        "Logger",
+                        "NamedValue",
+                        "NotificationRecipientEmail",
+                        "NotificationRecipientUser",
+                        "OpenIdConnectProvider",
+                        "Policy",
+                        "PrivateEndpointConnectionByName",
+                        "Product",
+                        "ProductApi",
+                        "ProductGroup",
+                        "ProductPolicy",
+                        "Property",
+                        "Subscription",
+                        "Tag",
+                        "TagByApi",
+                        "TagByOperation",
+                        "TagByProduct",
+                        "User"
+                    ],
+                    "Functions": [
+                        "getApi",
+                        "getApiDiagnostic",
+                        "getApiIssue",
+                        "getApiIssueAttachment",
+                        "getApiIssueComment",
+                        "getApiManagementService",
+                        "getApiManagementServiceDomainOwnershipIdentifier",
+                        "getApiManagementServiceSsoToken",
+                        "getApiOperation",
+                        "getApiOperationPolicy",
+                        "getApiPolicy",
+                        "getApiRelease",
+                        "getApiSchema",
+                        "getApiTagDescription",
+                        "getApiVersionSet",
+                        "getAuthorizationServer",
+                        "getBackend",
+                        "getCache",
+                        "getCertificate",
+                        "getContentItem",
+                        "getContentType",
+                        "getDiagnostic",
+                        "getEmailTemplate",
+                        "getGateway",
+                        "getGatewayCertificateAuthority",
+                        "getGatewayHostnameConfiguration",
+                        "getGroup",
+                        "getIdentityProvider",
+                        "getLogger",
+                        "getNamedValue",
+                        "getOpenIdConnectProvider",
+                        "getPolicy",
+                        "getPrivateEndpointConnectionByName",
+                        "getProduct",
+                        "getProductPolicy",
+                        "getProperty",
+                        "getSubscription",
+                        "getTag",
+                        "getTagByApi",
+                        "getTagByOperation",
+                        "getTagByProduct",
+                        "getUser",
+                        "getUserSharedAccessToken",
+                        "listAuthorizationServerSecrets",
+                        "listDelegationSettingSecrets",
+                        "listGatewayKeys",
+                        "listIdentityProviderSecrets",
+                        "listNamedValue",
+                        "listOpenIdConnectProviderSecrets",
+                        "listSubscriptionSecrets",
+                        "listTenantAccessGitSecrets",
+                        "listTenantAccessSecrets"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "appconfiguration",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ConfigurationStore",
+                        "KeyValue",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getConfigurationStore",
+                        "getKeyValue",
+                        "getPrivateEndpointConnection",
+                        "listConfigurationStoreKeyValue",
+                        "listConfigurationStoreKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "appplatform",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "App",
+                        "Binding",
+                        "Certificate",
+                        "CustomDomain",
+                        "Deployment",
+                        "Service"
+                    ],
+                    "Functions": [
+                        "getApp",
+                        "getAppResourceUploadUrl",
+                        "getBinding",
+                        "getCertificate",
+                        "getCustomDomain",
+                        "getDeployment",
+                        "getDeploymentLogFileUrl",
+                        "getService",
+                        "listServiceTestKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "attestation",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AttestationProvider",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getAttestationProvider",
+                        "getPrivateEndpointConnection"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "authorization",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AccessReviewScheduleDefinitionById",
+                        "ManagementLockAtResourceGroupLevel",
+                        "ManagementLockAtResourceLevel",
+                        "ManagementLockAtSubscriptionLevel",
+                        "ManagementLockByScope",
+                        "PolicyAssignment",
+                        "PolicyDefinition",
+                        "PolicyDefinitionAtManagementGroup",
+                        "PolicyExemption",
+                        "PolicySetDefinition",
+                        "PolicySetDefinitionAtManagementGroup",
+                        "ResourceManagementPrivateLink",
+                        "RoleAssignment",
+                        "RoleDefinition",
+                        "RoleManagementPolicyAssignment"
+                    ],
+                    "Functions": [
+                        "getAccessReviewScheduleDefinitionById",
+                        "getClientConfig",
+                        "getClientToken",
+                        "getManagementLockAtResourceGroupLevel",
+                        "getManagementLockAtResourceLevel",
+                        "getManagementLockAtSubscriptionLevel",
+                        "getManagementLockByScope",
+                        "getPolicyAssignment",
+                        "getPolicyDefinition",
+                        "getPolicyDefinitionAtManagementGroup",
+                        "getPolicyExemption",
+                        "getPolicySetDefinition",
+                        "getPolicySetDefinitionAtManagementGroup",
+                        "getResourceManagementPrivateLink",
+                        "getRoleAssignment",
+                        "getRoleDefinition",
+                        "getRoleManagementPolicyAssignment"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "automanage",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "ConfigurationProfileAssignment",
+                        "ConfigurationProfilePreference"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getConfigurationProfileAssignment",
+                        "getConfigurationProfilePreference"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "automation",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AutomationAccount",
+                        "Certificate",
+                        "Connection",
+                        "ConnectionType",
+                        "Credential",
+                        "DscConfiguration",
+                        "DscNodeConfiguration",
+                        "HybridRunbookWorker",
+                        "HybridRunbookWorkerGroup",
+                        "JobSchedule",
+                        "Module",
+                        "PrivateEndpointConnection",
+                        "Python2Package",
+                        "Runbook",
+                        "Schedule",
+                        "SoftwareUpdateConfigurationByName",
+                        "SourceControl",
+                        "Variable",
+                        "Watcher",
+                        "Webhook"
+                    ],
+                    "Functions": [
+                        "getAutomationAccount",
+                        "getCertificate",
+                        "getConnection",
+                        "getConnectionType",
+                        "getCredential",
+                        "getDscConfiguration",
+                        "getDscNodeConfiguration",
+                        "getHybridRunbookWorker",
+                        "getHybridRunbookWorkerGroup",
+                        "getJobSchedule",
+                        "getModule",
+                        "getPrivateEndpointConnection",
+                        "getPython2Package",
+                        "getRunbook",
+                        "getSchedule",
+                        "getSoftwareUpdateConfigurationByName",
+                        "getSourceControl",
+                        "getVariable",
+                        "getWatcher",
+                        "getWebhook",
+                        "listKeyByAutomationAccount"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "autonomousdevelopmentplatform",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "DataPool"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getDataPool"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "avs",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Addon",
+                        "Authorization",
+                        "CloudLink",
+                        "Cluster",
+                        "Datastore",
+                        "GlobalReachConnection",
+                        "HcxEnterpriseSite",
+                        "PrivateCloud",
+                        "ScriptExecution",
+                        "WorkloadNetworkDhcp",
+                        "WorkloadNetworkDnsService",
+                        "WorkloadNetworkDnsZone",
+                        "WorkloadNetworkPortMirroring",
+                        "WorkloadNetworkPublicIP",
+                        "WorkloadNetworkSegment",
+                        "WorkloadNetworkVMGroup"
+                    ],
+                    "Functions": [
+                        "getAddon",
+                        "getAuthorization",
+                        "getCloudLink",
+                        "getCluster",
+                        "getDatastore",
+                        "getGlobalReachConnection",
+                        "getHcxEnterpriseSite",
+                        "getPrivateCloud",
+                        "getScriptExecution",
+                        "getScriptExecutionLogs",
+                        "getWorkloadNetworkDhcp",
+                        "getWorkloadNetworkDnsService",
+                        "getWorkloadNetworkDnsZone",
+                        "getWorkloadNetworkPortMirroring",
+                        "getWorkloadNetworkPublicIP",
+                        "getWorkloadNetworkSegment",
+                        "getWorkloadNetworkVMGroup",
+                        "listPrivateCloudAdminCredentials"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "azureactivedirectory",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "B2CTenant",
+                        "GuestUsage"
+                    ],
+                    "Functions": [
+                        "getB2CTenant",
+                        "getGuestUsage"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "azurearcdata",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DataController",
+                        "PostgresInstance",
+                        "SqlManagedInstance",
+                        "SqlServerInstance"
+                    ],
+                    "Functions": [
+                        "getDataController",
+                        "getPostgresInstance",
+                        "getSqlManagedInstance",
+                        "getSqlServerInstance"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "azuredata",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "SqlServer",
+                        "SqlServerRegistration"
+                    ],
+                    "Functions": [
+                        "getSqlServer",
+                        "getSqlServerRegistration"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "azurestack",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CustomerSubscription",
+                        "LinkedSubscription",
+                        "Registration"
+                    ],
+                    "Functions": [
+                        "getCustomerSubscription",
+                        "getLinkedSubscription",
+                        "getProduct",
+                        "getProducts",
+                        "getRegistration",
+                        "getRegistrationActivationKey",
+                        "listProductDetails"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "azurestackhci",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ArcSetting",
+                        "Cluster",
+                        "Extension"
+                    ],
+                    "Functions": [
+                        "getArcSetting",
+                        "getCluster",
+                        "getExtension"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "batch",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Application",
+                        "ApplicationPackage",
+                        "BatchAccount",
+                        "Certificate",
+                        "Pool"
+                    ],
+                    "Functions": [
+                        "getApplication",
+                        "getApplicationPackage",
+                        "getBatchAccount",
+                        "getCertificate",
+                        "getPool",
+                        "listBatchAccountKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "billing",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "BillingRoleAssignmentByBillingAccount",
+                        "BillingRoleAssignmentByDepartment",
+                        "BillingRoleAssignmentByEnrollmentAccount"
+                    ],
+                    "Functions": [
+                        "getBillingRoleAssignmentByBillingAccount",
+                        "getBillingRoleAssignmentByDepartment",
+                        "getBillingRoleAssignmentByEnrollmentAccount",
+                        "listBillingAccountInvoiceSectionsByCreateSubscriptionPermission"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "blockchain",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "BlockchainMember",
+                        "TransactionNode"
+                    ],
+                    "Functions": [
+                        "getBlockchainMember",
+                        "getTransactionNode",
+                        "listBlockchainMemberApiKeys",
+                        "listLocationConsortiums",
+                        "listTransactionNodeApiKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "blueprint",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Artifact",
+                        "Assignment",
+                        "Blueprint",
+                        "PolicyAssignmentArtifact",
+                        "PublishedBlueprint",
+                        "RoleAssignmentArtifact",
+                        "TemplateArtifact"
+                    ],
+                    "Functions": [
+                        "getArtifact",
+                        "getAssignment",
+                        "getBlueprint",
+                        "getPolicyAssignmentArtifact",
+                        "getPublishedBlueprint",
+                        "getRoleAssignmentArtifact",
+                        "getTemplateArtifact"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "botservice",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Bot",
+                        "BotConnection",
+                        "Channel",
+                        "EnterpriseChannel",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getBot",
+                        "getBotConnection",
+                        "getChannel",
+                        "getEnterpriseChannel",
+                        "getPrivateEndpointConnection",
+                        "listBotConnectionServiceProviders",
+                        "listBotConnectionWithSecrets",
+                        "listChannelWithKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "cache",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Database",
+                        "FirewallRule",
+                        "LinkedServer",
+                        "PatchSchedule",
+                        "PrivateEndpointConnection",
+                        "Redis",
+                        "RedisEnterprise"
+                    ],
+                    "Functions": [
+                        "getDatabase",
+                        "getFirewallRule",
+                        "getLinkedServer",
+                        "getPatchSchedule",
+                        "getPrivateEndpointConnection",
+                        "getRedis",
+                        "getRedisEnterprise",
+                        "listDatabaseKeys",
+                        "listRedisKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "cdn",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AFDCustomDomain",
+                        "AFDEndpoint",
+                        "AFDOrigin",
+                        "AFDOriginGroup",
+                        "CustomDomain",
+                        "Endpoint",
+                        "Origin",
+                        "OriginGroup",
+                        "Policy",
+                        "Profile",
+                        "Route",
+                        "Rule",
+                        "RuleSet",
+                        "Secret",
+                        "SecurityPolicy"
+                    ],
+                    "Functions": [
+                        "getAFDCustomDomain",
+                        "getAFDEndpoint",
+                        "getAFDOrigin",
+                        "getAFDOriginGroup",
+                        "getCustomDomain",
+                        "getEndpoint",
+                        "getOrigin",
+                        "getOriginGroup",
+                        "getPolicy",
+                        "getProfile",
+                        "getProfileSupportedOptimizationTypes",
+                        "getRoute",
+                        "getRule",
+                        "getRuleSet",
+                        "getSecret",
+                        "getSecurityPolicy"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "certificateregistration",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AppServiceCertificateOrder",
+                        "AppServiceCertificateOrderCertificate"
+                    ],
+                    "Functions": [
+                        "getAppServiceCertificateOrder",
+                        "getAppServiceCertificateOrderCertificate"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "changeanalysis",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ConfigurationProfile"
+                    ],
+                    "Functions": [
+                        "getConfigurationProfile"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "cognitiveservices",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getPrivateEndpointConnection",
+                        "listAccountKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "communication",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CommunicationService"
+                    ],
+                    "Functions": [
+                        "getCommunicationService",
+                        "listCommunicationServiceKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "compute",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AvailabilitySet",
+                        "CapacityReservation",
+                        "CapacityReservationGroup",
+                        "CloudService",
+                        "DedicatedHost",
+                        "DedicatedHostGroup",
+                        "Disk",
+                        "DiskAccess",
+                        "DiskAccessAPrivateEndpointConnection",
+                        "DiskEncryptionSet",
+                        "Gallery",
+                        "GalleryApplication",
+                        "GalleryApplicationVersion",
+                        "GalleryImage",
+                        "GalleryImageVersion",
+                        "Image",
+                        "ProximityPlacementGroup",
+                        "RestorePoint",
+                        "RestorePointCollection",
+                        "Snapshot",
+                        "SshPublicKey",
+                        "VirtualMachine",
+                        "VirtualMachineExtension",
+                        "VirtualMachineRunCommandByVirtualMachine",
+                        "VirtualMachineScaleSet",
+                        "VirtualMachineScaleSetExtension",
+                        "VirtualMachineScaleSetVM",
+                        "VirtualMachineScaleSetVMExtension",
+                        "VirtualMachineScaleSetVMRunCommand"
+                    ],
+                    "Functions": [
+                        "getAvailabilitySet",
+                        "getCapacityReservation",
+                        "getCapacityReservationGroup",
+                        "getCloudService",
+                        "getDedicatedHost",
+                        "getDedicatedHostGroup",
+                        "getDisk",
+                        "getDiskAccess",
+                        "getDiskAccessAPrivateEndpointConnection",
+                        "getDiskEncryptionSet",
+                        "getGallery",
+                        "getGalleryApplication",
+                        "getGalleryApplicationVersion",
+                        "getGalleryImage",
+                        "getGalleryImageVersion",
+                        "getImage",
+                        "getLogAnalyticExportRequestRateByInterval",
+                        "getLogAnalyticExportThrottledRequests",
+                        "getProximityPlacementGroup",
+                        "getRestorePoint",
+                        "getRestorePointCollection",
+                        "getSnapshot",
+                        "getSshPublicKey",
+                        "getVirtualMachine",
+                        "getVirtualMachineExtension",
+                        "getVirtualMachineRunCommandByVirtualMachine",
+                        "getVirtualMachineScaleSet",
+                        "getVirtualMachineScaleSetExtension",
+                        "getVirtualMachineScaleSetVM",
+                        "getVirtualMachineScaleSetVMExtension",
+                        "getVirtualMachineScaleSetVMRunCommand"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "confidentialledger",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Ledger"
+                    ],
+                    "Functions": [
+                        "getLedger"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "confluent",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Organization"
+                    ],
+                    "Functions": [
+                        "getOrganization"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "consumption",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Budget"
+                    ],
+                    "Functions": [
+                        "getBudget"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "containerinstance",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ContainerGroup"
+                    ],
+                    "Functions": [
+                        "getContainerGroup"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "containerregistry",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AgentPool",
+                        "ConnectedRegistry",
+                        "ExportPipeline",
+                        "ImportPipeline",
+                        "PipelineRun",
+                        "PrivateEndpointConnection",
+                        "Registry",
+                        "Replication",
+                        "ScopeMap",
+                        "Task",
+                        "TaskRun",
+                        "Token",
+                        "Webhook"
+                    ],
+                    "Functions": [
+                        "getAgentPool",
+                        "getBuildLogLink",
+                        "getConnectedRegistry",
+                        "getExportPipeline",
+                        "getImportPipeline",
+                        "getPipelineRun",
+                        "getPrivateEndpointConnection",
+                        "getRegistry",
+                        "getRegistryBuildSourceUploadUrl",
+                        "getRegistryCredentials",
+                        "getReplication",
+                        "getScopeMap",
+                        "getTask",
+                        "getTaskRun",
+                        "getToken",
+                        "getWebhook",
+                        "getWebhookCallbackConfig",
+                        "listAgentPoolQueueStatus",
+                        "listBuildStepBuildArguments",
+                        "listBuildTaskSourceRepositoryProperties",
+                        "listRegistryBuildSourceUploadUrl",
+                        "listRegistryCredentials",
+                        "listRunLogSasUrl",
+                        "listTaskDetails",
+                        "listTaskRunDetails",
+                        "listWebhookEvents"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "containerservice",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AgentPool",
+                        "MaintenanceConfiguration",
+                        "ManagedCluster",
+                        "OpenShiftManagedCluster",
+                        "PrivateEndpointConnection",
+                        "Snapshot"
+                    ],
+                    "Functions": [
+                        "getAgentPool",
+                        "getMaintenanceConfiguration",
+                        "getManagedCluster",
+                        "getOpenShiftManagedCluster",
+                        "getPrivateEndpointConnection",
+                        "getSnapshot",
+                        "listManagedClusterAccessProfile",
+                        "listManagedClusterAdminCredentials",
+                        "listManagedClusterMonitoringUserCredentials",
+                        "listManagedClusterUserCredentials"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "costmanagement",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CloudConnector",
+                        "CostAllocationRule",
+                        "Export",
+                        "Report",
+                        "ReportByBillingAccount",
+                        "ReportByDepartment",
+                        "ReportByResourceGroupName",
+                        "Setting",
+                        "View",
+                        "ViewByScope"
+                    ],
+                    "Functions": [
+                        "getCloudConnector",
+                        "getCostAllocationRule",
+                        "getExport",
+                        "getReport",
+                        "getReportByBillingAccount",
+                        "getReportByDepartment",
+                        "getReportByResourceGroupName",
+                        "getSetting",
+                        "getView",
+                        "getViewByScope"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "customerinsights",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Connector",
+                        "ConnectorMapping",
+                        "Hub",
+                        "Kpi",
+                        "Link",
+                        "Prediction",
+                        "Profile",
+                        "Relationship",
+                        "RelationshipLink",
+                        "RoleAssignment",
+                        "View"
+                    ],
+                    "Functions": [
+                        "getConnector",
+                        "getConnectorMapping",
+                        "getHub",
+                        "getImageUploadUrlForData",
+                        "getImageUploadUrlForEntityType",
+                        "getKpi",
+                        "getLink",
+                        "getPrediction",
+                        "getPredictionModelStatus",
+                        "getPredictionTrainingResults",
+                        "getProfile",
+                        "getRelationship",
+                        "getRelationshipLink",
+                        "getRoleAssignment",
+                        "getView"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "customproviders",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Association",
+                        "CustomResourceProvider"
+                    ],
+                    "Functions": [
+                        "getAssociation",
+                        "getCustomResourceProvider"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "databox",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Job"
+                    ],
+                    "Functions": [
+                        "getJob",
+                        "listJobCredentials"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "databoxedge",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Addon",
+                        "ArcAddon",
+                        "BandwidthSchedule",
+                        "CloudEdgeManagementRole",
+                        "Container",
+                        "Device",
+                        "FileEventTrigger",
+                        "IoTAddon",
+                        "IoTRole",
+                        "KubernetesRole",
+                        "MECRole",
+                        "MonitoringConfig",
+                        "Order",
+                        "PeriodicTimerEventTrigger",
+                        "Role",
+                        "Share",
+                        "StorageAccount",
+                        "StorageAccountCredential",
+                        "Trigger",
+                        "User"
+                    ],
+                    "Functions": [
+                        "getAddon",
+                        "getArcAddon",
+                        "getBandwidthSchedule",
+                        "getCloudEdgeManagementRole",
+                        "getContainer",
+                        "getDevice",
+                        "getDeviceExtendedInformation",
+                        "getFileEventTrigger",
+                        "getIoTAddon",
+                        "getIoTRole",
+                        "getKubernetesRole",
+                        "getMECRole",
+                        "getMonitoringConfig",
+                        "getOrder",
+                        "getPeriodicTimerEventTrigger",
+                        "getRole",
+                        "getShare",
+                        "getStorageAccount",
+                        "getStorageAccountCredential",
+                        "getTrigger",
+                        "getUser",
+                        "listOrderDCAccessCode"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "databricks",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "PrivateEndpointConnection",
+                        "Workspace",
+                        "vNetPeering"
+                    ],
+                    "Functions": [
+                        "getPrivateEndpointConnection",
+                        "getWorkspace",
+                        "getvNetPeering"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "datacatalog",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ADCCatalog"
+                    ],
+                    "Functions": [
+                        "getADCCatalog"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "datadog",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Monitor"
+                    ],
+                    "Functions": [
+                        "getMonitor",
+                        "getMonitorDefaultKey",
+                        "listMonitorApiKeys",
+                        "listMonitorHosts",
+                        "listMonitorLinkedResources",
+                        "listMonitorMonitoredResources"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "datafactory",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DataFlow",
+                        "Dataset",
+                        "Factory",
+                        "IntegrationRuntime",
+                        "LinkedService",
+                        "ManagedPrivateEndpoint",
+                        "Pipeline",
+                        "PrivateEndpointConnection",
+                        "Trigger"
+                    ],
+                    "Functions": [
+                        "getDataFlow",
+                        "getDataset",
+                        "getExposureControlFeatureValue",
+                        "getExposureControlFeatureValueByFactory",
+                        "getFactory",
+                        "getFactoryDataPlaneAccess",
+                        "getFactoryGitHubAccessToken",
+                        "getIntegrationRuntime",
+                        "getIntegrationRuntimeConnectionInfo",
+                        "getIntegrationRuntimeObjectMetadatum",
+                        "getIntegrationRuntimeStatus",
+                        "getLinkedService",
+                        "getManagedPrivateEndpoint",
+                        "getPipeline",
+                        "getPrivateEndpointConnection",
+                        "getTrigger",
+                        "getTriggerEventSubscriptionStatus",
+                        "listIntegrationRuntimeAuthKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "datalakeanalytics",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "ComputePolicy",
+                        "FirewallRule"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getComputePolicy",
+                        "getFirewallRule",
+                        "listStorageAccountSasTokens"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "datalakestore",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "FirewallRule",
+                        "TrustedIdProvider",
+                        "VirtualNetworkRule"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getFirewallRule",
+                        "getTrustedIdProvider",
+                        "getVirtualNetworkRule"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "datamigration",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "File",
+                        "Project",
+                        "Service",
+                        "Task"
+                    ],
+                    "Functions": [
+                        "getFile",
+                        "getProject",
+                        "getService",
+                        "getTask"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "dataprotection",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "BackupInstance",
+                        "BackupPolicy",
+                        "BackupVault",
+                        "ResourceGuard"
+                    ],
+                    "Functions": [
+                        "getBackupInstance",
+                        "getBackupPolicy",
+                        "getBackupVault",
+                        "getResourceGuard"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "datashare",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ADLSGen1FileDataSet",
+                        "ADLSGen1FolderDataSet",
+                        "ADLSGen2FileDataSet",
+                        "ADLSGen2FileDataSetMapping",
+                        "ADLSGen2FileSystemDataSet",
+                        "ADLSGen2FileSystemDataSetMapping",
+                        "ADLSGen2FolderDataSet",
+                        "ADLSGen2FolderDataSetMapping",
+                        "Account",
+                        "BlobContainerDataSet",
+                        "BlobContainerDataSetMapping",
+                        "BlobDataSet",
+                        "BlobDataSetMapping",
+                        "BlobFolderDataSet",
+                        "BlobFolderDataSetMapping",
+                        "DataSet",
+                        "DataSetMapping",
+                        "Invitation",
+                        "KustoClusterDataSet",
+                        "KustoClusterDataSetMapping",
+                        "KustoDatabaseDataSet",
+                        "KustoDatabaseDataSetMapping",
+                        "ScheduledSynchronizationSetting",
+                        "ScheduledTrigger",
+                        "Share",
+                        "ShareSubscription",
+                        "SqlDBTableDataSet",
+                        "SqlDBTableDataSetMapping",
+                        "SqlDWTableDataSet",
+                        "SqlDWTableDataSetMapping",
+                        "SynapseWorkspaceSqlPoolTableDataSet",
+                        "SynapseWorkspaceSqlPoolTableDataSetMapping",
+                        "SynchronizationSetting",
+                        "Trigger"
+                    ],
+                    "Functions": [
+                        "getADLSGen1FileDataSet",
+                        "getADLSGen1FolderDataSet",
+                        "getADLSGen2FileDataSet",
+                        "getADLSGen2FileDataSetMapping",
+                        "getADLSGen2FileSystemDataSet",
+                        "getADLSGen2FileSystemDataSetMapping",
+                        "getADLSGen2FolderDataSet",
+                        "getADLSGen2FolderDataSetMapping",
+                        "getAccount",
+                        "getBlobContainerDataSet",
+                        "getBlobContainerDataSetMapping",
+                        "getBlobDataSet",
+                        "getBlobDataSetMapping",
+                        "getBlobFolderDataSet",
+                        "getBlobFolderDataSetMapping",
+                        "getDataSet",
+                        "getDataSetMapping",
+                        "getInvitation",
+                        "getKustoClusterDataSet",
+                        "getKustoClusterDataSetMapping",
+                        "getKustoDatabaseDataSet",
+                        "getKustoDatabaseDataSetMapping",
+                        "getScheduledSynchronizationSetting",
+                        "getScheduledTrigger",
+                        "getShare",
+                        "getShareSubscription",
+                        "getSqlDBTableDataSet",
+                        "getSqlDBTableDataSetMapping",
+                        "getSqlDWTableDataSet",
+                        "getSqlDWTableDataSetMapping",
+                        "getSynapseWorkspaceSqlPoolTableDataSet",
+                        "getSynapseWorkspaceSqlPoolTableDataSetMapping",
+                        "getSynchronizationSetting",
+                        "getTrigger",
+                        "listShareSubscriptionSourceShareSynchronizationSettings",
+                        "listShareSubscriptionSynchronizationDetails",
+                        "listShareSubscriptionSynchronizations",
+                        "listShareSynchronizationDetails",
+                        "listShareSynchronizations"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "dbformariadb",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Configuration",
+                        "Database",
+                        "FirewallRule",
+                        "PrivateEndpointConnection",
+                        "Server",
+                        "VirtualNetworkRule"
+                    ],
+                    "Functions": [
+                        "getConfiguration",
+                        "getDatabase",
+                        "getFirewallRule",
+                        "getPrivateEndpointConnection",
+                        "getServer",
+                        "getVirtualNetworkRule"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "dbformysql",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Configuration",
+                        "Database",
+                        "FirewallRule",
+                        "PrivateEndpointConnection",
+                        "Server",
+                        "ServerAdministrator",
+                        "ServerKey",
+                        "VirtualNetworkRule"
+                    ],
+                    "Functions": [
+                        "getConfiguration",
+                        "getDatabase",
+                        "getFirewallRule",
+                        "getGetPrivateDnsZoneSuffixExecute",
+                        "getPrivateEndpointConnection",
+                        "getServer",
+                        "getServerAdministrator",
+                        "getServerKey",
+                        "getVirtualNetworkRule"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "dbforpostgresql",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Configuration",
+                        "Database",
+                        "FirewallRule",
+                        "PrivateEndpointConnection",
+                        "Server",
+                        "ServerAdministrator",
+                        "ServerKey",
+                        "ServerSecurityAlertPolicy",
+                        "VirtualNetworkRule"
+                    ],
+                    "Functions": [
+                        "getConfiguration",
+                        "getDatabase",
+                        "getFirewallRule",
+                        "getPrivateEndpointConnection",
+                        "getServer",
+                        "getServerAdministrator",
+                        "getServerKey",
+                        "getServerSecurityAlertPolicy",
+                        "getVirtualNetworkRule"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "delegatednetwork",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ControllerDetails",
+                        "DelegatedSubnetServiceDetails",
+                        "OrchestratorInstanceServiceDetails"
+                    ],
+                    "Functions": [
+                        "getControllerDetails",
+                        "getDelegatedSubnetServiceDetails",
+                        "getOrchestratorInstanceServiceDetails"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "deploymentmanager",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ArtifactSource",
+                        "Rollout",
+                        "Service",
+                        "ServiceTopology",
+                        "ServiceUnit",
+                        "Step"
+                    ],
+                    "Functions": [
+                        "getArtifactSource",
+                        "getRollout",
+                        "getService",
+                        "getServiceTopology",
+                        "getServiceUnit",
+                        "getStep"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "desktopvirtualization",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Application",
+                        "ApplicationGroup",
+                        "HostPool",
+                        "MSIXPackage",
+                        "PrivateEndpointConnectionByHostPool",
+                        "PrivateEndpointConnectionByWorkspace",
+                        "ScalingPlan",
+                        "Workspace"
+                    ],
+                    "Functions": [
+                        "getApplication",
+                        "getApplicationGroup",
+                        "getHostPool",
+                        "getMSIXPackage",
+                        "getPrivateEndpointConnectionByHostPool",
+                        "getPrivateEndpointConnectionByWorkspace",
+                        "getScalingPlan",
+                        "getWorkspace"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "devices",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Certificate",
+                        "DpsCertificate",
+                        "IotDpsResource",
+                        "IotDpsResourcePrivateEndpointConnection",
+                        "IotHubResource",
+                        "IotHubResourceEventHubConsumerGroup",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getCertificate",
+                        "getDpsCertificate",
+                        "getIotDpsResource",
+                        "getIotDpsResourcePrivateEndpointConnection",
+                        "getIotHubResource",
+                        "getIotHubResourceEventHubConsumerGroup",
+                        "getPrivateEndpointConnection",
+                        "listIotDpsResourceKeys",
+                        "listIotDpsResourceKeysForKeyName",
+                        "listIotHubResourceKeys",
+                        "listIotHubResourceKeysForKeyName"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "deviceupdate",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "Instance",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getInstance",
+                        "getPrivateEndpointConnection"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "devops",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Pipeline"
+                    ],
+                    "Functions": [
+                        "getPipeline"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "devspaces",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Controller"
+                    ],
+                    "Functions": [
+                        "getController",
+                        "listControllerConnectionDetails"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "devtestlab",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ArtifactSource",
+                        "CustomImage",
+                        "Disk",
+                        "Environment",
+                        "Formula",
+                        "GlobalSchedule",
+                        "Lab",
+                        "NotificationChannel",
+                        "Policy",
+                        "Schedule",
+                        "Secret",
+                        "ServiceFabric",
+                        "ServiceFabricSchedule",
+                        "ServiceRunner",
+                        "User",
+                        "VirtualMachine",
+                        "VirtualMachineSchedule",
+                        "VirtualNetwork"
+                    ],
+                    "Functions": [
+                        "getArtifactSource",
+                        "getCustomImage",
+                        "getDisk",
+                        "getEnvironment",
+                        "getFormula",
+                        "getGlobalSchedule",
+                        "getLab",
+                        "getNotificationChannel",
+                        "getPolicy",
+                        "getSchedule",
+                        "getSecret",
+                        "getServiceFabric",
+                        "getServiceFabricSchedule",
+                        "getServiceRunner",
+                        "getUser",
+                        "getVirtualMachine",
+                        "getVirtualMachineRdpFileContents",
+                        "getVirtualMachineSchedule",
+                        "getVirtualNetwork",
+                        "listLabVhds",
+                        "listScheduleApplicable",
+                        "listServiceFabricApplicableSchedules",
+                        "listVirtualMachineApplicableSchedules"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "digitaltwins",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DigitalTwin",
+                        "DigitalTwinsEndpoint",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getDigitalTwin",
+                        "getDigitalTwinsEndpoint",
+                        "getPrivateEndpointConnection"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "documentdb",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CassandraCluster",
+                        "CassandraDataCenter",
+                        "CassandraResourceCassandraKeyspace",
+                        "CassandraResourceCassandraTable",
+                        "CassandraResourceCassandraView",
+                        "DatabaseAccount",
+                        "GraphResourceGraph",
+                        "GremlinResourceGremlinDatabase",
+                        "GremlinResourceGremlinGraph",
+                        "MongoDBResourceMongoDBCollection",
+                        "MongoDBResourceMongoDBDatabase",
+                        "NotebookWorkspace",
+                        "PrivateEndpointConnection",
+                        "Service",
+                        "SqlResourceSqlContainer",
+                        "SqlResourceSqlDatabase",
+                        "SqlResourceSqlRoleAssignment",
+                        "SqlResourceSqlRoleDefinition",
+                        "SqlResourceSqlStoredProcedure",
+                        "SqlResourceSqlTrigger",
+                        "SqlResourceSqlUserDefinedFunction",
+                        "TableResourceTable"
+                    ],
+                    "Functions": [
+                        "getCassandraCluster",
+                        "getCassandraDataCenter",
+                        "getCassandraResourceCassandraKeyspace",
+                        "getCassandraResourceCassandraTable",
+                        "getCassandraResourceCassandraView",
+                        "getDatabaseAccount",
+                        "getGraphResourceGraph",
+                        "getGremlinResourceGremlinDatabase",
+                        "getGremlinResourceGremlinGraph",
+                        "getMongoDBResourceMongoDBCollection",
+                        "getMongoDBResourceMongoDBDatabase",
+                        "getNotebookWorkspace",
+                        "getPrivateEndpointConnection",
+                        "getService",
+                        "getSqlResourceSqlContainer",
+                        "getSqlResourceSqlDatabase",
+                        "getSqlResourceSqlRoleAssignment",
+                        "getSqlResourceSqlRoleDefinition",
+                        "getSqlResourceSqlStoredProcedure",
+                        "getSqlResourceSqlTrigger",
+                        "getSqlResourceSqlUserDefinedFunction",
+                        "getTableResourceTable",
+                        "listDatabaseAccountConnectionStrings",
+                        "listDatabaseAccountKeys",
+                        "listNotebookWorkspaceConnectionInfo"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "domainregistration",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Domain",
+                        "DomainOwnershipIdentifier"
+                    ],
+                    "Functions": [
+                        "getDomain",
+                        "getDomainOwnershipIdentifier",
+                        "listDomainRecommendations",
+                        "listTopLevelDomainAgreements"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "dynamics365fraudprotection",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "InstanceDetails"
+                    ],
+                    "Functions": [
+                        "getInstanceDetails"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "edgeorder",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AddressByName",
+                        "OrderItemByName"
+                    ],
+                    "Functions": [
+                        "getAddressByName",
+                        "getOrderItemByName",
+                        "listConfigurations",
+                        "listProductFamilies"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "elastic",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Monitor",
+                        "TagRule"
+                    ],
+                    "Functions": [
+                        "getMonitor",
+                        "getTagRule",
+                        "listDeploymentInfo",
+                        "listMonitoredResource",
+                        "listVMHost"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "engagementfabric",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "Channel"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getChannel",
+                        "listAccountChannelTypes",
+                        "listAccountKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "enterpriseknowledgegraph",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "EnterpriseKnowledgeGraph"
+                    ],
+                    "Functions": [
+                        "getEnterpriseKnowledgeGraph"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "eventgrid",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Domain",
+                        "DomainTopic",
+                        "EventChannel",
+                        "EventSubscription",
+                        "PartnerNamespace",
+                        "PartnerRegistration",
+                        "PartnerTopicEventSubscription",
+                        "PrivateEndpointConnection",
+                        "SystemTopic",
+                        "SystemTopicEventSubscription",
+                        "Topic"
+                    ],
+                    "Functions": [
+                        "getDomain",
+                        "getDomainTopic",
+                        "getEventChannel",
+                        "getEventSubscription",
+                        "getEventSubscriptionDeliveryAttributes",
+                        "getEventSubscriptionFullUrl",
+                        "getPartnerNamespace",
+                        "getPartnerRegistration",
+                        "getPartnerTopicEventSubscription",
+                        "getPartnerTopicEventSubscriptionDeliveryAttributes",
+                        "getPartnerTopicEventSubscriptionFullUrl",
+                        "getPrivateEndpointConnection",
+                        "getSystemTopic",
+                        "getSystemTopicEventSubscription",
+                        "getSystemTopicEventSubscriptionDeliveryAttributes",
+                        "getSystemTopicEventSubscriptionFullUrl",
+                        "getTopic",
+                        "listDomainSharedAccessKeys",
+                        "listPartnerNamespaceSharedAccessKeys",
+                        "listTopicSharedAccessKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "eventhub",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Cluster",
+                        "ConsumerGroup",
+                        "DisasterRecoveryConfig",
+                        "EventHub",
+                        "EventHubAuthorizationRule",
+                        "Namespace",
+                        "NamespaceAuthorizationRule",
+                        "NamespaceIpFilterRule",
+                        "NamespaceNetworkRuleSet",
+                        "NamespaceVirtualNetworkRule",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getCluster",
+                        "getConsumerGroup",
+                        "getDisasterRecoveryConfig",
+                        "getEventHub",
+                        "getEventHubAuthorizationRule",
+                        "getNamespace",
+                        "getNamespaceAuthorizationRule",
+                        "getNamespaceIpFilterRule",
+                        "getNamespaceNetworkRuleSet",
+                        "getNamespaceVirtualNetworkRule",
+                        "getPrivateEndpointConnection",
+                        "listDisasterRecoveryConfigKeys",
+                        "listEventHubKeys",
+                        "listNamespaceKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "extendedlocation",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CustomLocation"
+                    ],
+                    "Functions": [
+                        "getCustomLocation"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "features",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "SubscriptionFeatureRegistration"
+                    ],
+                    "Functions": [
+                        "getSubscriptionFeatureRegistration"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "fluidrelay",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "FluidRelayServer"
+                    ],
+                    "Functions": [
+                        "getFluidRelayServer",
+                        "getFluidRelayServerKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "guestconfiguration",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "GuestConfigurationAssignment",
+                        "GuestConfigurationHCRPAssignment"
+                    ],
+                    "Functions": [
+                        "getGuestConfigurationAssignment",
+                        "getGuestConfigurationHCRPAssignment"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "hanaonazure",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "HanaInstance",
+                        "ProviderInstance",
+                        "SapMonitor"
+                    ],
+                    "Functions": [
+                        "getHanaInstance",
+                        "getProviderInstance",
+                        "getSapMonitor"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "hardwaresecuritymodules",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DedicatedHsm"
+                    ],
+                    "Functions": [
+                        "getDedicatedHsm"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "hdinsight",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Application",
+                        "Cluster",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getApplication",
+                        "getCluster",
+                        "getClusterGatewaySettings",
+                        "getPrivateEndpointConnection"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "healthbot",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Bot"
+                    ],
+                    "Functions": [
+                        "getBot"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "healthcareapis",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DicomService",
+                        "FhirService",
+                        "IotConnector",
+                        "IotConnectorFhirDestination",
+                        "PrivateEndpointConnection",
+                        "Service",
+                        "Workspace"
+                    ],
+                    "Functions": [
+                        "getDicomService",
+                        "getFhirService",
+                        "getIotConnector",
+                        "getIotConnectorFhirDestination",
+                        "getPrivateEndpointConnection",
+                        "getService",
+                        "getWorkspace"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "hybridcompute",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Machine",
+                        "MachineExtension",
+                        "PrivateEndpointConnection",
+                        "PrivateLinkScope",
+                        "PrivateLinkScopedResource"
+                    ],
+                    "Functions": [
+                        "getMachine",
+                        "getMachineExtension",
+                        "getPrivateEndpointConnection",
+                        "getPrivateLinkScope",
+                        "getPrivateLinkScopedResource"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "hybriddata",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DataManager",
+                        "DataStore",
+                        "JobDefinition"
+                    ],
+                    "Functions": [
+                        "getDataManager",
+                        "getDataStore",
+                        "getJobDefinition"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "hybridnetwork",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Device",
+                        "NetworkFunction",
+                        "Vendor",
+                        "VendorSkuPreview",
+                        "VendorSkus"
+                    ],
+                    "Functions": [
+                        "getDevice",
+                        "getNetworkFunction",
+                        "getVendor",
+                        "getVendorSkuPreview",
+                        "getVendorSkus",
+                        "listDeviceRegistrationKey"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "importexport",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Job"
+                    ],
+                    "Functions": [
+                        "getJob",
+                        "listBitLockerKey"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "insights",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ActionGroup",
+                        "ActivityLogAlert",
+                        "AlertRule",
+                        "AnalyticsItem",
+                        "AutoscaleSetting",
+                        "Component",
+                        "ComponentCurrentBillingFeature",
+                        "ComponentLinkedStorageAccount",
+                        "DataCollectionEndpoint",
+                        "DataCollectionRule",
+                        "DataCollectionRuleAssociation",
+                        "DiagnosticSetting",
+                        "ExportConfiguration",
+                        "Favorite",
+                        "GuestDiagnosticsSettingsAssociation",
+                        "LogProfile",
+                        "ManagementGroupDiagnosticSetting",
+                        "MetricAlert",
+                        "MyWorkbook",
+                        "PrivateEndpointConnection",
+                        "PrivateLinkScope",
+                        "PrivateLinkScopedResource",
+                        "ProactiveDetectionConfiguration",
+                        "ScheduledQueryRule",
+                        "SubscriptionDiagnosticSetting",
+                        "WebTest",
+                        "Workbook",
+                        "WorkbookTemplate",
+                        "guestDiagnosticsSetting"
+                    ],
+                    "Functions": [
+                        "getActionGroup",
+                        "getActivityLogAlert",
+                        "getAlertRule",
+                        "getAnalyticsItem",
+                        "getAutoscaleSetting",
+                        "getComponent",
+                        "getComponentCurrentBillingFeature",
+                        "getComponentLinkedStorageAccount",
+                        "getDataCollectionEndpoint",
+                        "getDataCollectionRule",
+                        "getDataCollectionRuleAssociation",
+                        "getDiagnosticServiceTokenReadOnly",
+                        "getDiagnosticServiceTokenReadWrite",
+                        "getDiagnosticSetting",
+                        "getExportConfiguration",
+                        "getFavorite",
+                        "getGuestDiagnosticsSettingsAssociation",
+                        "getLiveToken",
+                        "getLogProfile",
+                        "getManagementGroupDiagnosticSetting",
+                        "getMetricAlert",
+                        "getMyWorkbook",
+                        "getPrivateEndpointConnection",
+                        "getPrivateLinkScope",
+                        "getPrivateLinkScopedResource",
+                        "getProactiveDetectionConfiguration",
+                        "getScheduledQueryRule",
+                        "getSubscriptionDiagnosticSetting",
+                        "getTestResultFile",
+                        "getWebTest",
+                        "getWorkbook",
+                        "getWorkbookTemplate",
+                        "getguestDiagnosticsSetting",
+                        "listEASubscriptionListMigrationDatePost"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "intune",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AndroidMAMPolicyByName",
+                        "IoMAMPolicyByName"
+                    ],
+                    "Functions": [
+                        "getAndroidMAMPolicyByName",
+                        "getIoMAMPolicyByName"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "iotcentral",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "App"
+                    ],
+                    "Functions": [
+                        "getApp"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "iotsecurity",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DefenderSetting",
+                        "DeviceGroup",
+                        "LocationSite",
+                        "OnPremiseSensor",
+                        "Sensor",
+                        "Site",
+                        "SiteSensor"
+                    ],
+                    "Functions": [
+                        "getDefenderSetting",
+                        "getDeviceGroup",
+                        "getLocationSite",
+                        "getOnPremiseSensor",
+                        "getSensor",
+                        "getSite",
+                        "getSiteSensor"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "keyvault",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Key",
+                        "MHSMPrivateEndpointConnection",
+                        "ManagedHsm",
+                        "PrivateEndpointConnection",
+                        "Secret",
+                        "Vault"
+                    ],
+                    "Functions": [
+                        "getKey",
+                        "getMHSMPrivateEndpointConnection",
+                        "getManagedHsm",
+                        "getPrivateEndpointConnection",
+                        "getSecret",
+                        "getVault"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "kubernetes",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ConnectedCluster"
+                    ],
+                    "Functions": [
+                        "getConnectedCluster",
+                        "listConnectedClusterUserCredential",
+                        "listConnectedClusterUserCredentials"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "kubernetesconfiguration",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Extension",
+                        "SourceControlConfiguration"
+                    ],
+                    "Functions": [
+                        "getExtension",
+                        "getSourceControlConfiguration"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "kusto",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AttachedDatabaseConfiguration",
+                        "Cluster",
+                        "ClusterPrincipalAssignment",
+                        "DataConnection",
+                        "Database",
+                        "DatabasePrincipalAssignment",
+                        "EventGridDataConnection",
+                        "EventHubConnection",
+                        "EventHubDataConnection",
+                        "IotHubDataConnection",
+                        "ManagedPrivateEndpoint",
+                        "PrivateEndpointConnection",
+                        "ReadOnlyFollowingDatabase",
+                        "ReadWriteDatabase",
+                        "Script"
+                    ],
+                    "Functions": [
+                        "getAttachedDatabaseConfiguration",
+                        "getCluster",
+                        "getClusterPrincipalAssignment",
+                        "getDataConnection",
+                        "getDatabase",
+                        "getDatabasePrincipalAssignment",
+                        "getEventGridDataConnection",
+                        "getEventHubConnection",
+                        "getEventHubDataConnection",
+                        "getIotHubDataConnection",
+                        "getManagedPrivateEndpoint",
+                        "getPrivateEndpointConnection",
+                        "getReadOnlyFollowingDatabase",
+                        "getReadWriteDatabase",
+                        "getScript",
+                        "listClusterFollowerDatabases",
+                        "listClusterLanguageExtensions",
+                        "listDatabasePrincipals"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "labservices",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Environment",
+                        "EnvironmentSetting",
+                        "GalleryImage",
+                        "Lab",
+                        "LabAccount",
+                        "LabPlan",
+                        "Schedule",
+                        "User"
+                    ],
+                    "Functions": [
+                        "getEnvironment",
+                        "getEnvironmentSetting",
+                        "getGalleryImage",
+                        "getGlobalUserEnvironment",
+                        "getGlobalUserOperationBatchStatus",
+                        "getGlobalUserOperationStatus",
+                        "getGlobalUserPersonalPreferences",
+                        "getLab",
+                        "getLabAccount",
+                        "getLabAccountRegionalAvailability",
+                        "getLabPlan",
+                        "getSchedule",
+                        "getUser",
+                        "listGlobalUserEnvironments",
+                        "listGlobalUserLabs"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "logic",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "IntegrationAccount",
+                        "IntegrationAccountAgreement",
+                        "IntegrationAccountAssembly",
+                        "IntegrationAccountBatchConfiguration",
+                        "IntegrationAccountCertificate",
+                        "IntegrationAccountMap",
+                        "IntegrationAccountPartner",
+                        "IntegrationAccountSchema",
+                        "IntegrationAccountSession",
+                        "IntegrationServiceEnvironment",
+                        "IntegrationServiceEnvironmentManagedApi",
+                        "RosettaNetProcessConfiguration",
+                        "Workflow",
+                        "WorkflowAccessKey"
+                    ],
+                    "Functions": [
+                        "getIntegrationAccount",
+                        "getIntegrationAccountAgreement",
+                        "getIntegrationAccountAssembly",
+                        "getIntegrationAccountBatchConfiguration",
+                        "getIntegrationAccountCertificate",
+                        "getIntegrationAccountMap",
+                        "getIntegrationAccountPartner",
+                        "getIntegrationAccountSchema",
+                        "getIntegrationAccountSession",
+                        "getIntegrationServiceEnvironment",
+                        "getIntegrationServiceEnvironmentManagedApi",
+                        "getRosettaNetProcessConfiguration",
+                        "getWorkflow",
+                        "getWorkflowAccessKey",
+                        "listIntegrationAccountAgreementContentCallbackUrl",
+                        "listIntegrationAccountAssemblyContentCallbackUrl",
+                        "listIntegrationAccountCallbackUrl",
+                        "listIntegrationAccountKeyVaultKeys",
+                        "listIntegrationAccountMapContentCallbackUrl",
+                        "listIntegrationAccountPartnerContentCallbackUrl",
+                        "listIntegrationAccountSchemaContentCallbackUrl",
+                        "listWorkflowAccessKeySecretKeys",
+                        "listWorkflowCallbackUrl",
+                        "listWorkflowRunActionExpressionTraces",
+                        "listWorkflowRunActionRepetitionExpressionTraces",
+                        "listWorkflowTriggerCallbackUrl",
+                        "listWorkflowVersionTriggerCallbackUrl"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "logz",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Monitor",
+                        "SubAccount",
+                        "SubAccountTagRule",
+                        "TagRule"
+                    ],
+                    "Functions": [
+                        "getMonitor",
+                        "getSubAccount",
+                        "getSubAccountTagRule",
+                        "getTagRule",
+                        "listMonitorMonitoredResources",
+                        "listMonitorUserRoles",
+                        "listMonitorVMHosts",
+                        "listSubAccountMonitoredResources",
+                        "listSubAccountVMHosts"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "m365securityandcompliance",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "PrivateEndpointConnectionsAdtAPI",
+                        "PrivateEndpointConnectionsComp",
+                        "PrivateEndpointConnectionsForEDM",
+                        "PrivateEndpointConnectionsForMIPPolicySync",
+                        "PrivateEndpointConnectionsForSCCPowershell",
+                        "PrivateEndpointConnectionsSec",
+                        "privateLinkServicesForEDMUpload",
+                        "privateLinkServicesForM365ComplianceCenter",
+                        "privateLinkServicesForM365SecurityCenter",
+                        "privateLinkServicesForMIPPolicySync",
+                        "privateLinkServicesForO365ManagementActivityAPI",
+                        "privateLinkServicesForSCCPowershell"
+                    ],
+                    "Functions": [
+                        "getPrivateEndpointConnectionsAdtAPI",
+                        "getPrivateEndpointConnectionsComp",
+                        "getPrivateEndpointConnectionsForEDM",
+                        "getPrivateEndpointConnectionsForMIPPolicySync",
+                        "getPrivateEndpointConnectionsForSCCPowershell",
+                        "getPrivateEndpointConnectionsSec",
+                        "getprivateLinkServicesForEDMUpload",
+                        "getprivateLinkServicesForM365ComplianceCenter",
+                        "getprivateLinkServicesForM365SecurityCenter",
+                        "getprivateLinkServicesForMIPPolicySync",
+                        "getprivateLinkServicesForO365ManagementActivityAPI",
+                        "getprivateLinkServicesForSCCPowershell"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "machinelearning",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CommitmentPlan",
+                        "WebService",
+                        "Workspace"
+                    ],
+                    "Functions": [
+                        "getCommitmentPlan",
+                        "getWebService",
+                        "getWorkspace",
+                        "listWorkspaceKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "machinelearningcompute",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "OperationalizationCluster"
+                    ],
+                    "Functions": [
+                        "getOperationalizationCluster",
+                        "listOperationalizationClusterKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "machinelearningexperimentation",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "Project",
+                        "Workspace"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getProject",
+                        "getWorkspace"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "machinelearningservices",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ACIService",
+                        "AKSService",
+                        "BatchDeployment",
+                        "BatchEndpoint",
+                        "CodeContainer",
+                        "CodeVersion",
+                        "DataContainer",
+                        "DataVersion",
+                        "EndpointVariant",
+                        "EnvironmentContainer",
+                        "EnvironmentSpecificationVersion",
+                        "Job",
+                        "LabelingJob",
+                        "LinkedService",
+                        "LinkedWorkspace",
+                        "MachineLearningCompute",
+                        "MachineLearningDataset",
+                        "MachineLearningDatastore",
+                        "MachineLearningService",
+                        "ModelContainer",
+                        "ModelVersion",
+                        "OnlineDeployment",
+                        "OnlineEndpoint",
+                        "PrivateEndpointConnection",
+                        "Workspace",
+                        "WorkspaceConnection"
+                    ],
+                    "Functions": [
+                        "getACIService",
+                        "getAKSService",
+                        "getBatchDeployment",
+                        "getBatchEndpoint",
+                        "getCodeContainer",
+                        "getCodeVersion",
+                        "getDataContainer",
+                        "getDataVersion",
+                        "getEndpointVariant",
+                        "getEnvironmentContainer",
+                        "getEnvironmentSpecificationVersion",
+                        "getJob",
+                        "getLabelingJob",
+                        "getLinkedService",
+                        "getLinkedWorkspace",
+                        "getMachineLearningCompute",
+                        "getMachineLearningDataset",
+                        "getMachineLearningDatastore",
+                        "getMachineLearningService",
+                        "getModelContainer",
+                        "getModelVersion",
+                        "getOnlineDeployment",
+                        "getOnlineDeploymentLogs",
+                        "getOnlineEndpoint",
+                        "getOnlineEndpointToken",
+                        "getPrivateEndpointConnection",
+                        "getWorkspace",
+                        "getWorkspaceConnection",
+                        "listBatchEndpointKeys",
+                        "listDatastoreSecrets",
+                        "listMachineLearningComputeKeys",
+                        "listMachineLearningComputeNodes",
+                        "listNotebookKeys",
+                        "listOnlineEndpointKeys",
+                        "listStorageAccountKeys",
+                        "listWorkspaceKeys",
+                        "listWorkspaceNotebookAccessToken"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "maintenance",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ConfigurationAssignment",
+                        "ConfigurationAssignmentParent",
+                        "MaintenanceConfiguration"
+                    ],
+                    "Functions": [
+                        "getConfigurationAssignment",
+                        "getConfigurationAssignmentParent",
+                        "getMaintenanceConfiguration"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "managedidentity",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "UserAssignedIdentity"
+                    ],
+                    "Functions": [
+                        "getUserAssignedIdentity"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "managednetwork",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ManagedNetwork",
+                        "ManagedNetworkGroup",
+                        "ManagedNetworkPeeringPolicy",
+                        "ScopeAssignment"
+                    ],
+                    "Functions": [
+                        "getManagedNetwork",
+                        "getManagedNetworkGroup",
+                        "getManagedNetworkPeeringPolicy",
+                        "getScopeAssignment"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "managedservices",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "RegistrationAssignment",
+                        "RegistrationDefinition"
+                    ],
+                    "Functions": [
+                        "getRegistrationAssignment",
+                        "getRegistrationDefinition"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "management",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "HierarchySetting",
+                        "ManagementGroup",
+                        "ManagementGroupSubscription"
+                    ],
+                    "Functions": [
+                        "getEntity",
+                        "getHierarchySetting",
+                        "getManagementGroup",
+                        "getManagementGroupSubscription"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "managementpartner",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Partner"
+                    ],
+                    "Functions": [
+                        "getPartner"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "maps",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "Creator",
+                        "PrivateAtlase"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getCreator",
+                        "getPrivateAtlase",
+                        "listAccountKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "marketplace",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "PrivateStoreCollection",
+                        "PrivateStoreCollectionOffer",
+                        "PrivateStoreOffer"
+                    ],
+                    "Functions": [
+                        "getPrivateStoreCollection",
+                        "getPrivateStoreCollectionOffer",
+                        "getPrivateStoreOffer"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "media",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AccountFilter",
+                        "Asset",
+                        "AssetFilter",
+                        "ContentKeyPolicy",
+                        "Job",
+                        "LiveEvent",
+                        "LiveOutput",
+                        "MediaGraph",
+                        "MediaService",
+                        "PrivateEndpointConnection",
+                        "StreamingEndpoint",
+                        "StreamingLocator",
+                        "StreamingPolicy",
+                        "Transform"
+                    ],
+                    "Functions": [
+                        "getAccountFilter",
+                        "getAsset",
+                        "getAssetEncryptionKey",
+                        "getAssetFilter",
+                        "getContentKeyPolicy",
+                        "getContentKeyPolicyPropertiesWithSecrets",
+                        "getJob",
+                        "getLiveEvent",
+                        "getLiveOutput",
+                        "getMediaGraph",
+                        "getMediaService",
+                        "getPrivateEndpointConnection",
+                        "getStreamingEndpoint",
+                        "getStreamingLocator",
+                        "getStreamingPolicy",
+                        "getTransform",
+                        "listAssetContainerSas",
+                        "listAssetStreamingLocators",
+                        "listMediaServiceEdgePolicies",
+                        "listMediaServiceKeys",
+                        "listStreamingLocatorContentKeys",
+                        "listStreamingLocatorPaths"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "migrate",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Assessment",
+                        "Group",
+                        "HyperVCollector",
+                        "ImportCollector",
+                        "MigrateProject",
+                        "MoveCollection",
+                        "MoveResource",
+                        "PrivateEndpointConnection",
+                        "Project",
+                        "ServerCollector",
+                        "Solution",
+                        "VMwareCollector"
+                    ],
+                    "Functions": [
+                        "getAssessment",
+                        "getGroup",
+                        "getHyperVCollector",
+                        "getImportCollector",
+                        "getMigrateProject",
+                        "getMoveCollection",
+                        "getMoveResource",
+                        "getPrivateEndpointConnection",
+                        "getProject",
+                        "getProjectKeys",
+                        "getServerCollector",
+                        "getSolution",
+                        "getSolutionConfig",
+                        "getVMwareCollector"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "mixedreality",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ObjectAnchorsAccount",
+                        "RemoteRenderingAccount",
+                        "SpatialAnchorsAccount"
+                    ],
+                    "Functions": [
+                        "getObjectAnchorsAccount",
+                        "getRemoteRenderingAccount",
+                        "getSpatialAnchorsAccount",
+                        "listObjectAnchorsAccountKeys",
+                        "listRemoteRenderingAccountKeys",
+                        "listSpatialAnchorsAccountKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "netapp",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "Backup",
+                        "BackupPolicy",
+                        "Pool",
+                        "Snapshot",
+                        "SnapshotPolicy",
+                        "Volume"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getBackup",
+                        "getBackupPolicy",
+                        "getPool",
+                        "getSnapshot",
+                        "getSnapshotPolicy",
+                        "getVolume"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "network",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AdminRule",
+                        "AdminRuleCollection",
+                        "ApplicationGateway",
+                        "ApplicationGatewayPrivateEndpointConnection",
+                        "ApplicationSecurityGroup",
+                        "AzureFirewall",
+                        "BastionHost",
+                        "ConnectionMonitor",
+                        "ConnectivityConfiguration",
+                        "CustomIPPrefix",
+                        "DdosCustomPolicy",
+                        "DdosProtectionPlan",
+                        "DefaultAdminRule",
+                        "DefaultUserRule",
+                        "DscpConfiguration",
+                        "Endpoint",
+                        "Experiment",
+                        "ExpressRouteCircuit",
+                        "ExpressRouteCircuitAuthorization",
+                        "ExpressRouteCircuitConnection",
+                        "ExpressRouteCircuitPeering",
+                        "ExpressRouteConnection",
+                        "ExpressRouteCrossConnectionPeering",
+                        "ExpressRouteGateway",
+                        "ExpressRoutePort",
+                        "FirewallPolicy",
+                        "FirewallPolicyRuleCollectionGroup",
+                        "FirewallPolicyRuleGroup",
+                        "FlowLog",
+                        "FrontDoor",
+                        "HubRouteTable",
+                        "HubVirtualNetworkConnection",
+                        "InboundNatRule",
+                        "IpAllocation",
+                        "IpGroup",
+                        "LoadBalancer",
+                        "LoadBalancerBackendAddressPool",
+                        "LocalNetworkGateway",
+                        "NatGateway",
+                        "NatRule",
+                        "NetworkExperimentProfile",
+                        "NetworkGroup",
+                        "NetworkInterface",
+                        "NetworkInterfaceTapConfiguration",
+                        "NetworkManager",
+                        "NetworkProfile",
+                        "NetworkSecurityGroup",
+                        "NetworkSecurityPerimeter",
+                        "NetworkVirtualAppliance",
+                        "NetworkWatcher",
+                        "P2sVpnGateway",
+                        "P2sVpnServerConfiguration",
+                        "PacketCapture",
+                        "Policy",
+                        "PrivateDnsZoneGroup",
+                        "PrivateEndpoint",
+                        "PrivateLinkService",
+                        "PrivateLinkServicePrivateEndpointConnection",
+                        "PrivateRecordSet",
+                        "PrivateZone",
+                        "Profile",
+                        "PublicIPAddress",
+                        "PublicIPPrefix",
+                        "RecordSet",
+                        "Route",
+                        "RouteFilter",
+                        "RouteFilterRule",
+                        "RouteTable",
+                        "RulesEngine",
+                        "SecurityAdminConfiguration",
+                        "SecurityPartnerProvider",
+                        "SecurityRule",
+                        "SecurityUserConfiguration",
+                        "ServiceEndpointPolicy",
+                        "ServiceEndpointPolicyDefinition",
+                        "Subnet",
+                        "TrafficManagerUserMetricsKey",
+                        "UserRule",
+                        "UserRuleCollection",
+                        "VirtualApplianceSite",
+                        "VirtualHub",
+                        "VirtualHubBgpConnection",
+                        "VirtualHubIpConfiguration",
+                        "VirtualHubRouteTableV2",
+                        "VirtualNetwork",
+                        "VirtualNetworkGateway",
+                        "VirtualNetworkGatewayConnection",
+                        "VirtualNetworkGatewayNatRule",
+                        "VirtualNetworkLink",
+                        "VirtualNetworkPeering",
+                        "VirtualNetworkTap",
+                        "VirtualRouter",
+                        "VirtualRouterPeering",
+                        "VirtualWan",
+                        "VpnConnection",
+                        "VpnGateway",
+                        "VpnServerConfiguration",
+                        "VpnSite",
+                        "WebApplicationFirewallPolicy",
+                        "Zone"
+                    ],
+                    "Functions": [
+                        "getActiveSessions",
+                        "getAdminRule",
+                        "getAdminRuleCollection",
+                        "getApplicationGateway",
+                        "getApplicationGatewayBackendHealthOnDemand",
+                        "getApplicationGatewayPrivateEndpointConnection",
+                        "getApplicationSecurityGroup",
+                        "getAzureFirewall",
+                        "getBastionHost",
+                        "getBastionShareableLink",
+                        "getConnectionMonitor",
+                        "getConnectivityConfiguration",
+                        "getCustomIPPrefix",
+                        "getDdosCustomPolicy",
+                        "getDdosProtectionPlan",
+                        "getDefaultAdminRule",
+                        "getDefaultUserRule",
+                        "getDnsResourceReferenceByTarResources",
+                        "getDscpConfiguration",
+                        "getEndpoint",
+                        "getExperiment",
+                        "getExpressRouteCircuit",
+                        "getExpressRouteCircuitAuthorization",
+                        "getExpressRouteCircuitConnection",
+                        "getExpressRouteCircuitPeering",
+                        "getExpressRouteConnection",
+                        "getExpressRouteCrossConnectionPeering",
+                        "getExpressRouteGateway",
+                        "getExpressRoutePort",
+                        "getFirewallPolicy",
+                        "getFirewallPolicyRuleCollectionGroup",
+                        "getFirewallPolicyRuleGroup",
+                        "getFlowLog",
+                        "getFrontDoor",
+                        "getHubRouteTable",
+                        "getHubVirtualNetworkConnection",
+                        "getInboundNatRule",
+                        "getIpAllocation",
+                        "getIpGroup",
+                        "getLoadBalancer",
+                        "getLoadBalancerBackendAddressPool",
+                        "getLocalNetworkGateway",
+                        "getNatGateway",
+                        "getNatRule",
+                        "getNetworkExperimentProfile",
+                        "getNetworkGroup",
+                        "getNetworkInterface",
+                        "getNetworkInterfaceTapConfiguration",
+                        "getNetworkManager",
+                        "getNetworkProfile",
+                        "getNetworkSecurityGroup",
+                        "getNetworkSecurityPerimeter",
+                        "getNetworkVirtualAppliance",
+                        "getNetworkWatcher",
+                        "getP2sVpnGateway",
+                        "getP2sVpnGatewayP2sVpnConnectionHealth",
+                        "getP2sVpnGatewayP2sVpnConnectionHealthDetailed",
+                        "getP2sVpnServerConfiguration",
+                        "getPacketCapture",
+                        "getPolicy",
+                        "getPrivateDnsZoneGroup",
+                        "getPrivateEndpoint",
+                        "getPrivateLinkService",
+                        "getPrivateLinkServicePrivateEndpointConnection",
+                        "getPrivateRecordSet",
+                        "getPrivateZone",
+                        "getProfile",
+                        "getPublicIPAddress",
+                        "getPublicIPPrefix",
+                        "getRecordSet",
+                        "getRoute",
+                        "getRouteFilter",
+                        "getRouteFilterRule",
+                        "getRouteTable",
+                        "getRulesEngine",
+                        "getSecurityAdminConfiguration",
+                        "getSecurityPartnerProvider",
+                        "getSecurityRule",
+                        "getSecurityUserConfiguration",
+                        "getServiceEndpointPolicy",
+                        "getServiceEndpointPolicyDefinition",
+                        "getSubnet",
+                        "getTrafficManagerUserMetricsKey",
+                        "getUserRule",
+                        "getUserRuleCollection",
+                        "getVirtualApplianceSite",
+                        "getVirtualHub",
+                        "getVirtualHubBgpConnection",
+                        "getVirtualHubIpConfiguration",
+                        "getVirtualHubRouteTableV2",
+                        "getVirtualNetwork",
+                        "getVirtualNetworkGateway",
+                        "getVirtualNetworkGatewayAdvertisedRoutes",
+                        "getVirtualNetworkGatewayBgpPeerStatus",
+                        "getVirtualNetworkGatewayConnection",
+                        "getVirtualNetworkGatewayLearnedRoutes",
+                        "getVirtualNetworkGatewayNatRule",
+                        "getVirtualNetworkGatewayVpnclientConnectionHealth",
+                        "getVirtualNetworkGatewayVpnclientIpsecParameters",
+                        "getVirtualNetworkLink",
+                        "getVirtualNetworkPeering",
+                        "getVirtualNetworkTap",
+                        "getVirtualRouter",
+                        "getVirtualRouterPeering",
+                        "getVirtualWan",
+                        "getVpnConnection",
+                        "getVpnGateway",
+                        "getVpnServerConfiguration",
+                        "getVpnSite",
+                        "getWebApplicationFirewallPolicy",
+                        "getZone",
+                        "listActiveConnectivityConfiguration",
+                        "listActiveSecurityAdminRule",
+                        "listActiveSecurityUserRule",
+                        "listEffectiveConnectivityConfiguration",
+                        "listEffectiveVirtualNetworkByNetworkGroup",
+                        "listEffectiveVirtualNetworkByNetworkManager",
+                        "listNetworkManagerDeploymentStatus",
+                        "listNetworkManagerEffectiveSecurityAdminRule"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "notebooks",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "NotebookProxy"
+                    ],
+                    "Functions": [
+                        "getNotebookProxy",
+                        "listNotebookProxyCredentials"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "notificationhubs",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Namespace",
+                        "NamespaceAuthorizationRule",
+                        "NotificationHub",
+                        "NotificationHubAuthorizationRule"
+                    ],
+                    "Functions": [
+                        "getNamespace",
+                        "getNamespaceAuthorizationRule",
+                        "getNotificationHub",
+                        "getNotificationHubAuthorizationRule",
+                        "getNotificationHubPnsCredentials",
+                        "listNamespaceKeys",
+                        "listNotificationHubKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "offazure",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "HyperVSite",
+                        "PrivateEndpointConnection",
+                        "Site"
+                    ],
+                    "Functions": [
+                        "getHyperVSite",
+                        "getPrivateEndpointConnection",
+                        "getSite"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "operationalinsights",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Cluster",
+                        "DataExport",
+                        "DataSource",
+                        "LinkedService",
+                        "LinkedStorageAccount",
+                        "MachineGroup",
+                        "Query",
+                        "QueryPack",
+                        "SavedSearch",
+                        "StorageInsightConfig",
+                        "Workspace"
+                    ],
+                    "Functions": [
+                        "getCluster",
+                        "getDataExport",
+                        "getDataSource",
+                        "getLinkedService",
+                        "getLinkedStorageAccount",
+                        "getMachineGroup",
+                        "getQuery",
+                        "getQueryPack",
+                        "getSavedSearch",
+                        "getSharedKeys",
+                        "getStorageInsightConfig",
+                        "getWorkspace"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "operationsmanagement",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ManagementAssociation",
+                        "ManagementConfiguration",
+                        "Solution"
+                    ],
+                    "Functions": [
+                        "getManagementAssociation",
+                        "getManagementConfiguration",
+                        "getSolution"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "peering",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "ConnectionMonitorTest",
+                        "PeerAsn",
+                        "Peering",
+                        "PeeringService",
+                        "Prefix",
+                        "RegisteredAsn",
+                        "RegisteredPrefix"
+                    ],
+                    "Functions": [
+                        "getConnectionMonitorTest",
+                        "getPeerAsn",
+                        "getPeering",
+                        "getPeeringService",
+                        "getPrefix",
+                        "getRegisteredAsn",
+                        "getRegisteredPrefix"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "policyinsights",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AttestationAtResource",
+                        "AttestationAtResourceGroup",
+                        "AttestationAtSubscription",
+                        "RemediationAtManagementGroup",
+                        "RemediationAtResource",
+                        "RemediationAtResourceGroup",
+                        "RemediationAtSubscription"
+                    ],
+                    "Functions": [
+                        "getAttestationAtResource",
+                        "getAttestationAtResourceGroup",
+                        "getAttestationAtSubscription",
+                        "getRemediationAtManagementGroup",
+                        "getRemediationAtResource",
+                        "getRemediationAtResourceGroup",
+                        "getRemediationAtSubscription",
+                        "listRemediationDeploymentsAtManagementGroup",
+                        "listRemediationDeploymentsAtResource",
+                        "listRemediationDeploymentsAtResourceGroup",
+                        "listRemediationDeploymentsAtSubscription"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "portal",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Console",
+                        "ConsoleWithLocation",
+                        "Dashboard",
+                        "TenantConfiguration",
+                        "UserSettings",
+                        "UserSettingsWithLocation"
+                    ],
+                    "Functions": [
+                        "getConsole",
+                        "getConsoleWithLocation",
+                        "getDashboard",
+                        "getTenantConfiguration",
+                        "getUserSettings",
+                        "getUserSettingsWithLocation",
+                        "listListTenantConfigurationViolation"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "powerbi",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "PowerBIResource",
+                        "PrivateEndpointConnection",
+                        "WorkspaceCollection"
+                    ],
+                    "Functions": [
+                        "getPrivateEndpointConnection",
+                        "getWorkspaceCollection",
+                        "listWorkspaceCollectionAccessKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "powerbidedicated",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AutoScaleVCore",
+                        "CapacityDetails"
+                    ],
+                    "Functions": [
+                        "getAutoScaleVCore",
+                        "getCapacityDetails"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "powerplatform",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "EnterprisePolicy",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getEnterprisePolicy",
+                        "getPrivateEndpointConnection"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "providerhub",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DefaultRollout",
+                        "NotificationRegistration",
+                        "OperationByProviderRegistration",
+                        "ProviderRegistration",
+                        "ResourceTypeRegistration",
+                        "Skus",
+                        "SkusNestedResourceTypeFirst",
+                        "SkusNestedResourceTypeSecond",
+                        "SkusNestedResourceTypeThird"
+                    ],
+                    "Functions": [
+                        "getDefaultRollout",
+                        "getNotificationRegistration",
+                        "getProviderRegistration",
+                        "getResourceTypeRegistration",
+                        "getSkus",
+                        "getSkusNestedResourceTypeFirst",
+                        "getSkusNestedResourceTypeSecond",
+                        "getSkusNestedResourceTypeThird"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "purview",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "PrivateEndpointConnection"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getPrivateEndpointConnection",
+                        "listAccountKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "quantum",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Workspace"
+                    ],
+                    "Functions": [
+                        "getWorkspace"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "recoveryservices",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "PrivateEndpointConnection",
+                        "ProtectedItem",
+                        "ProtectionContainer",
+                        "ProtectionIntent",
+                        "ProtectionPolicy",
+                        "ReplicationFabric",
+                        "ReplicationMigrationItem",
+                        "ReplicationNetworkMapping",
+                        "ReplicationPolicy",
+                        "ReplicationProtectedItem",
+                        "ReplicationProtectionContainerMapping",
+                        "ReplicationRecoveryPlan",
+                        "ReplicationRecoveryServicesProvider",
+                        "ReplicationStorageClassificationMapping",
+                        "ReplicationvCenter",
+                        "ResourceGuardProxy",
+                        "Vault"
+                    ],
+                    "Functions": [
+                        "getPrivateEndpointConnection",
+                        "getProtectedItem",
+                        "getProtectionContainer",
+                        "getProtectionIntent",
+                        "getProtectionPolicy",
+                        "getRecoveryPointAccessToken",
+                        "getReplicationFabric",
+                        "getReplicationMigrationItem",
+                        "getReplicationNetworkMapping",
+                        "getReplicationPolicy",
+                        "getReplicationProtectedItem",
+                        "getReplicationProtectionContainerMapping",
+                        "getReplicationRecoveryPlan",
+                        "getReplicationRecoveryServicesProvider",
+                        "getReplicationStorageClassificationMapping",
+                        "getReplicationvCenter",
+                        "getResourceGuardProxy",
+                        "getVault"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "redhatopenshift",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "OpenShiftCluster"
+                    ],
+                    "Functions": [
+                        "getOpenShiftCluster",
+                        "listOpenShiftClusterAdminCredentials",
+                        "listOpenShiftClusterCredentials"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "relay",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "HybridConnection",
+                        "HybridConnectionAuthorizationRule",
+                        "Namespace",
+                        "NamespaceAuthorizationRule",
+                        "PrivateEndpointConnection",
+                        "WCFRelay",
+                        "WCFRelayAuthorizationRule"
+                    ],
+                    "Functions": [
+                        "getHybridConnection",
+                        "getHybridConnectionAuthorizationRule",
+                        "getNamespace",
+                        "getNamespaceAuthorizationRule",
+                        "getPrivateEndpointConnection",
+                        "getWCFRelay",
+                        "getWCFRelayAuthorizationRule",
+                        "listHybridConnectionKeys",
+                        "listNamespaceKeys",
+                        "listWCFRelayKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "resourcegraph",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "GraphQuery"
+                    ],
+                    "Functions": [
+                        "getGraphQuery"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "resources",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AzureCliScript",
+                        "AzurePowerShellScript",
+                        "Deployment",
+                        "DeploymentAtManagementGroupScope",
+                        "DeploymentAtScope",
+                        "DeploymentAtSubscriptionScope",
+                        "DeploymentAtTenantScope",
+                        "DeploymentScript",
+                        "Resource",
+                        "ResourceGroup",
+                        "TagAtScope",
+                        "TemplateSpec",
+                        "TemplateSpecVersion"
+                    ],
+                    "Functions": [
+                        "getAzureCliScript",
+                        "getAzurePowerShellScript",
+                        "getDeployment",
+                        "getDeploymentAtManagementGroupScope",
+                        "getDeploymentAtScope",
+                        "getDeploymentAtSubscriptionScope",
+                        "getDeploymentAtTenantScope",
+                        "getDeploymentScript",
+                        "getResource",
+                        "getResourceGroup",
+                        "getTagAtScope",
+                        "getTemplateSpec",
+                        "getTemplateSpecVersion"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "saas",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "SaasSubscriptionLevel"
+                    ],
+                    "Functions": [
+                        "getSaasSubscriptionLevel",
+                        "listSaasResourceAccessToken",
+                        "listSaasSubscriptionLevelAccessToken"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "scheduler",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Job",
+                        "JobCollection"
+                    ],
+                    "Functions": [
+                        "getJob",
+                        "getJobCollection"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "search",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "PrivateEndpointConnection",
+                        "Service",
+                        "SharedPrivateLinkResource"
+                    ],
+                    "Functions": [
+                        "getPrivateEndpointConnection",
+                        "getService",
+                        "getSharedPrivateLinkResource",
+                        "listAdminKey",
+                        "listQueryKeyBySearchService"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "security",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AdaptiveApplicationControl",
+                        "AdvancedThreatProtection",
+                        "AlertsSuppressionRule",
+                        "Assessment",
+                        "AssessmentMetadataInSubscription",
+                        "Automation",
+                        "Connector",
+                        "CustomAssessmentAutomation",
+                        "CustomEntityStoreAssignment",
+                        "DeviceSecurityGroup",
+                        "IngestionSetting",
+                        "IotSecuritySolution",
+                        "JitNetworkAccessPolicy",
+                        "SecurityContact",
+                        "ServerVulnerabilityAssessment",
+                        "SqlVulnerabilityAssessmentBaselineRule",
+                        "WorkspaceSetting"
+                    ],
+                    "Functions": [
+                        "getAdaptiveApplicationControl",
+                        "getAdvancedThreatProtection",
+                        "getAlertsSuppressionRule",
+                        "getAssessment",
+                        "getAssessmentMetadataInSubscription",
+                        "getAutomation",
+                        "getConnector",
+                        "getCustomAssessmentAutomation",
+                        "getCustomEntityStoreAssignment",
+                        "getDeviceSecurityGroup",
+                        "getIngestionSetting",
+                        "getIotSecuritySolution",
+                        "getJitNetworkAccessPolicy",
+                        "getSecurityContact",
+                        "getServerVulnerabilityAssessment",
+                        "getSqlVulnerabilityAssessmentBaselineRule",
+                        "getWorkspaceSetting",
+                        "listIngestionSettingConnectionStrings",
+                        "listIngestionSettingTokens"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "securityandcompliance",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "PrivateEndpointConnectionsAdtAPI",
+                        "PrivateEndpointConnectionsComp",
+                        "PrivateEndpointConnectionsForEDM",
+                        "PrivateEndpointConnectionsForMIPPolicySync",
+                        "PrivateEndpointConnectionsForSCCPowershell",
+                        "PrivateEndpointConnectionsSec",
+                        "privateLinkServicesForEDMUpload",
+                        "privateLinkServicesForM365ComplianceCenter",
+                        "privateLinkServicesForM365SecurityCenter",
+                        "privateLinkServicesForMIPPolicySync",
+                        "privateLinkServicesForO365ManagementActivityAPI",
+                        "privateLinkServicesForSCCPowershell"
+                    ],
+                    "Functions": [
+                        "getPrivateEndpointConnectionsAdtAPI",
+                        "getPrivateEndpointConnectionsComp",
+                        "getPrivateEndpointConnectionsForEDM",
+                        "getPrivateEndpointConnectionsForMIPPolicySync",
+                        "getPrivateEndpointConnectionsForSCCPowershell",
+                        "getPrivateEndpointConnectionsSec",
+                        "getprivateLinkServicesForEDMUpload",
+                        "getprivateLinkServicesForM365ComplianceCenter",
+                        "getprivateLinkServicesForM365SecurityCenter",
+                        "getprivateLinkServicesForMIPPolicySync",
+                        "getprivateLinkServicesForO365ManagementActivityAPI",
+                        "getprivateLinkServicesForSCCPowershell"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "securityinsights",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AADDataConnector",
+                        "AATPDataConnector",
+                        "ASCDataConnector",
+                        "Action",
+                        "ActivityCustomEntityQuery",
+                        "AlertRule",
+                        "Anomalies",
+                        "AutomationRule",
+                        "AwsCloudTrailDataConnector",
+                        "Bookmark",
+                        "BookmarkRelation",
+                        "DataConnector",
+                        "EntityAnalytics",
+                        "EntityQuery",
+                        "EyesOn",
+                        "FusionAlertRule",
+                        "Incident",
+                        "IncidentComment",
+                        "IncidentRelation",
+                        "MCASDataConnector",
+                        "MDATPDataConnector",
+                        "Metadata",
+                        "MicrosoftSecurityIncidentCreationAlertRule",
+                        "OfficeDataConnector",
+                        "ProductSetting",
+                        "ScheduledAlertRule",
+                        "SentinelOnboardingState",
+                        "SourceControl",
+                        "TIDataConnector",
+                        "ThreatIntelligenceIndicator",
+                        "Ueba",
+                        "Watchlist",
+                        "WatchlistItem"
+                    ],
+                    "Functions": [
+                        "getAADDataConnector",
+                        "getAATPDataConnector",
+                        "getASCDataConnector",
+                        "getAction",
+                        "getActivityCustomEntityQuery",
+                        "getAlertRule",
+                        "getAnomalies",
+                        "getAutomationRule",
+                        "getAwsCloudTrailDataConnector",
+                        "getBookmark",
+                        "getBookmarkRelation",
+                        "getDataConnector",
+                        "getEntitiesGetTimeline",
+                        "getEntityAnalytics",
+                        "getEntityInsights",
+                        "getEntityQuery",
+                        "getEyesOn",
+                        "getFusionAlertRule",
+                        "getIncident",
+                        "getIncidentComment",
+                        "getIncidentRelation",
+                        "getMCASDataConnector",
+                        "getMDATPDataConnector",
+                        "getMetadata",
+                        "getMicrosoftSecurityIncidentCreationAlertRule",
+                        "getOfficeDataConnector",
+                        "getProductSetting",
+                        "getScheduledAlertRule",
+                        "getSentinelOnboardingState",
+                        "getSourceControl",
+                        "getTIDataConnector",
+                        "getThreatIntelligenceIndicator",
+                        "getUeba",
+                        "getWatchlist",
+                        "getWatchlistItem",
+                        "listSourceControlRepositories"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "serialconsole",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "SerialPort"
+                    ],
+                    "Functions": [
+                        "getSerialPort"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "servicebus",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DisasterRecoveryConfig",
+                        "MigrationConfig",
+                        "Namespace",
+                        "NamespaceAuthorizationRule",
+                        "NamespaceIpFilterRule",
+                        "NamespaceNetworkRuleSet",
+                        "NamespaceVirtualNetworkRule",
+                        "PrivateEndpointConnection",
+                        "Queue",
+                        "QueueAuthorizationRule",
+                        "Rule",
+                        "Subscription",
+                        "Topic",
+                        "TopicAuthorizationRule"
+                    ],
+                    "Functions": [
+                        "getDisasterRecoveryConfig",
+                        "getMigrationConfig",
+                        "getNamespace",
+                        "getNamespaceAuthorizationRule",
+                        "getNamespaceIpFilterRule",
+                        "getNamespaceNetworkRuleSet",
+                        "getNamespaceVirtualNetworkRule",
+                        "getPrivateEndpointConnection",
+                        "getQueue",
+                        "getQueueAuthorizationRule",
+                        "getRule",
+                        "getSubscription",
+                        "getTopic",
+                        "getTopicAuthorizationRule",
+                        "listDisasterRecoveryConfigKeys",
+                        "listNamespaceKeys",
+                        "listQueueKeys",
+                        "listTopicKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "servicefabric",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Application",
+                        "ApplicationType",
+                        "ApplicationTypeVersion",
+                        "Cluster",
+                        "ManagedCluster",
+                        "NodeType",
+                        "Service"
+                    ],
+                    "Functions": [
+                        "getApplication",
+                        "getApplicationType",
+                        "getApplicationTypeVersion",
+                        "getCluster",
+                        "getManagedCluster",
+                        "getNodeType",
+                        "getService",
+                        "listListUpgradableVersionPost"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "servicefabricmesh",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Application",
+                        "Gateway",
+                        "Network",
+                        "Secret",
+                        "SecretValue",
+                        "Volume"
+                    ],
+                    "Functions": [
+                        "getApplication",
+                        "getGateway",
+                        "getNetwork",
+                        "getSecret",
+                        "getSecretValue",
+                        "getVolume",
+                        "listSecretValue"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "servicelinker",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Linker"
+                    ],
+                    "Functions": [
+                        "getLinker",
+                        "listLinkerConfigurations"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "signalrservice",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "SignalR",
+                        "SignalRPrivateEndpointConnection",
+                        "SignalRSharedPrivateLinkResource"
+                    ],
+                    "Functions": [
+                        "getSignalR",
+                        "getSignalRPrivateEndpointConnection",
+                        "getSignalRSharedPrivateLinkResource",
+                        "listSignalRKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "softwareplan",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "HybridUseBenefit"
+                    ],
+                    "Functions": [
+                        "getHybridUseBenefit"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "solutions",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Application",
+                        "ApplicationDefinition",
+                        "JitRequest"
+                    ],
+                    "Functions": [
+                        "getApplication",
+                        "getApplicationDefinition",
+                        "getJitRequest"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "sql",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "BackupShortTermRetentionPolicy",
+                        "DataMaskingPolicy",
+                        "Database",
+                        "DatabaseAdvisor",
+                        "DatabaseBlobAuditingPolicy",
+                        "DatabaseSecurityAlertPolicy",
+                        "DatabaseVulnerabilityAssessment",
+                        "DatabaseVulnerabilityAssessmentRuleBaseline",
+                        "DisasterRecoveryConfiguration",
+                        "ElasticPool",
+                        "EncryptionProtector",
+                        "ExtendedDatabaseBlobAuditingPolicy",
+                        "ExtendedServerBlobAuditingPolicy",
+                        "FailoverGroup",
+                        "FirewallRule",
+                        "GeoBackupPolicy",
+                        "InstanceFailoverGroup",
+                        "InstancePool",
+                        "Job",
+                        "JobAgent",
+                        "JobCredential",
+                        "JobStep",
+                        "JobTargetGroup",
+                        "LongTermRetentionPolicy",
+                        "ManagedDatabase",
+                        "ManagedDatabaseSensitivityLabel",
+                        "ManagedDatabaseVulnerabilityAssessment",
+                        "ManagedDatabaseVulnerabilityAssessmentRuleBaseline",
+                        "ManagedInstance",
+                        "ManagedInstanceAdministrator",
+                        "ManagedInstanceAzureADOnlyAuthentication",
+                        "ManagedInstanceKey",
+                        "ManagedInstancePrivateEndpointConnection",
+                        "ManagedInstanceVulnerabilityAssessment",
+                        "OutboundFirewallRule",
+                        "PrivateEndpointConnection",
+                        "SensitivityLabel",
+                        "Server",
+                        "ServerAdvisor",
+                        "ServerAzureADAdministrator",
+                        "ServerAzureADOnlyAuthentication",
+                        "ServerBlobAuditingPolicy",
+                        "ServerCommunicationLink",
+                        "ServerDnsAlias",
+                        "ServerKey",
+                        "ServerSecurityAlertPolicy",
+                        "ServerTrustGroup",
+                        "ServerVulnerabilityAssessment",
+                        "SyncAgent",
+                        "SyncGroup",
+                        "SyncMember",
+                        "TransparentDataEncryption",
+                        "VirtualNetworkRule",
+                        "WorkloadClassifier",
+                        "WorkloadGroup"
+                    ],
+                    "Functions": [
+                        "getBackupShortTermRetentionPolicy",
+                        "getDataMaskingPolicy",
+                        "getDatabase",
+                        "getDatabaseAdvisor",
+                        "getDatabaseBlobAuditingPolicy",
+                        "getDatabaseSecurityAlertPolicy",
+                        "getDatabaseVulnerabilityAssessment",
+                        "getDatabaseVulnerabilityAssessmentRuleBaseline",
+                        "getDisasterRecoveryConfiguration",
+                        "getElasticPool",
+                        "getEncryptionProtector",
+                        "getExtendedDatabaseBlobAuditingPolicy",
+                        "getExtendedServerBlobAuditingPolicy",
+                        "getFailoverGroup",
+                        "getFirewallRule",
+                        "getGeoBackupPolicy",
+                        "getInstanceFailoverGroup",
+                        "getInstancePool",
+                        "getJob",
+                        "getJobAgent",
+                        "getJobCredential",
+                        "getJobStep",
+                        "getJobTargetGroup",
+                        "getLongTermRetentionPolicy",
+                        "getManagedDatabase",
+                        "getManagedDatabaseSensitivityLabel",
+                        "getManagedDatabaseVulnerabilityAssessment",
+                        "getManagedDatabaseVulnerabilityAssessmentRuleBaseline",
+                        "getManagedInstance",
+                        "getManagedInstanceAdministrator",
+                        "getManagedInstanceAzureADOnlyAuthentication",
+                        "getManagedInstanceKey",
+                        "getManagedInstancePrivateEndpointConnection",
+                        "getManagedInstanceVulnerabilityAssessment",
+                        "getOutboundFirewallRule",
+                        "getPrivateEndpointConnection",
+                        "getSensitivityLabel",
+                        "getServer",
+                        "getServerAdvisor",
+                        "getServerAzureADAdministrator",
+                        "getServerAzureADOnlyAuthentication",
+                        "getServerBlobAuditingPolicy",
+                        "getServerCommunicationLink",
+                        "getServerDnsAlias",
+                        "getServerKey",
+                        "getServerSecurityAlertPolicy",
+                        "getServerTrustGroup",
+                        "getServerVulnerabilityAssessment",
+                        "getSyncAgent",
+                        "getSyncGroup",
+                        "getSyncMember",
+                        "getTransparentDataEncryption",
+                        "getVirtualNetworkRule",
+                        "getWorkloadClassifier",
+                        "getWorkloadGroup"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "sqlvirtualmachine",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AvailabilityGroupListener",
+                        "SqlVirtualMachine",
+                        "SqlVirtualMachineGroup"
+                    ],
+                    "Functions": [
+                        "getAvailabilityGroupListener",
+                        "getSqlVirtualMachine",
+                        "getSqlVirtualMachineGroup"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "storage",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Blob",
+                        "BlobContainer",
+                        "BlobContainerImmutabilityPolicy",
+                        "BlobInventoryPolicy",
+                        "BlobServiceProperties",
+                        "EncryptionScope",
+                        "FileServiceProperties",
+                        "FileShare",
+                        "ManagementPolicy",
+                        "ObjectReplicationPolicy",
+                        "PrivateEndpointConnection",
+                        "Queue",
+                        "QueueServiceProperties",
+                        "StorageAccount",
+                        "StorageAccountStaticWebsite",
+                        "Table",
+                        "TableServiceProperties"
+                    ],
+                    "Functions": [
+                        "getBlobContainer",
+                        "getBlobContainerImmutabilityPolicy",
+                        "getBlobInventoryPolicy",
+                        "getBlobServiceProperties",
+                        "getEncryptionScope",
+                        "getFileServiceProperties",
+                        "getFileShare",
+                        "getManagementPolicy",
+                        "getObjectReplicationPolicy",
+                        "getPrivateEndpointConnection",
+                        "getQueue",
+                        "getQueueServiceProperties",
+                        "getStorageAccount",
+                        "getTable",
+                        "getTableServiceProperties",
+                        "listStorageAccountKeys",
+                        "listStorageAccountSAS",
+                        "listStorageAccountServiceSAS"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "storagecache",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Cache",
+                        "StorageTarget"
+                    ],
+                    "Functions": [
+                        "getCache",
+                        "getStorageTarget"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "storagepool",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DiskPool",
+                        "IscsiTarget"
+                    ],
+                    "Functions": [
+                        "getDiskPool",
+                        "getIscsiTarget"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "storagesync",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CloudEndpoint",
+                        "PrivateEndpointConnection",
+                        "RegisteredServer",
+                        "ServerEndpoint",
+                        "StorageSyncService",
+                        "SyncGroup"
+                    ],
+                    "Functions": [
+                        "getCloudEndpoint",
+                        "getPrivateEndpointConnection",
+                        "getRegisteredServer",
+                        "getServerEndpoint",
+                        "getStorageSyncService",
+                        "getSyncGroup"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "storsimple",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AccessControlRecord",
+                        "BackupPolicy",
+                        "BackupSchedule",
+                        "BandwidthSetting",
+                        "Manager",
+                        "ManagerExtendedInfo",
+                        "StorageAccountCredential",
+                        "Volume",
+                        "VolumeContainer"
+                    ],
+                    "Functions": [
+                        "getAccessControlRecord",
+                        "getBackupPolicy",
+                        "getBackupSchedule",
+                        "getBandwidthSetting",
+                        "getManager",
+                        "getManagerDevicePublicEncryptionKey",
+                        "getManagerExtendedInfo",
+                        "getStorageAccountCredential",
+                        "getVolume",
+                        "getVolumeContainer",
+                        "listDeviceFailoverSets",
+                        "listDeviceFailoverTars",
+                        "listManagerActivationKey",
+                        "listManagerPublicEncryptionKey"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "streamanalytics",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Cluster",
+                        "Function",
+                        "Input",
+                        "Output",
+                        "PrivateEndpoint",
+                        "StreamingJob"
+                    ],
+                    "Functions": [
+                        "getCluster",
+                        "getFunction",
+                        "getInput",
+                        "getOutput",
+                        "getPrivateEndpoint",
+                        "getStreamingJob",
+                        "listClusterStreamingJobs"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "subscription",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Alias"
+                    ],
+                    "Functions": [
+                        "getAlias"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "synapse",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "BigDataPool",
+                        "DataConnection",
+                        "Database",
+                        "DatabasePrincipalAssignment",
+                        "EventGridDataConnection",
+                        "EventHubDataConnection",
+                        "IntegrationRuntime",
+                        "IotHubDataConnection",
+                        "IpFirewallRule",
+                        "Key",
+                        "KustoPoolAttachedDatabaseConfiguration",
+                        "KustoPoolPrincipalAssignment",
+                        "PrivateEndpointConnection",
+                        "PrivateLinkHub",
+                        "ReadWriteDatabase",
+                        "SqlPool",
+                        "SqlPoolSensitivityLabel",
+                        "SqlPoolTransparentDataEncryption",
+                        "SqlPoolVulnerabilityAssessment",
+                        "SqlPoolVulnerabilityAssessmentRuleBaseline",
+                        "SqlPoolWorkloadClassifier",
+                        "SqlPoolWorkloadGroup",
+                        "Workspace",
+                        "WorkspaceAadAdmin",
+                        "WorkspaceManagedSqlServerVulnerabilityAssessment",
+                        "WorkspaceSqlAadAdmin",
+                        "kustoPool"
+                    ],
+                    "Functions": [
+                        "getBigDataPool",
+                        "getDataConnection",
+                        "getDatabase",
+                        "getDatabasePrincipalAssignment",
+                        "getEventGridDataConnection",
+                        "getEventHubDataConnection",
+                        "getIntegrationRuntime",
+                        "getIntegrationRuntimeConnectionInfo",
+                        "getIntegrationRuntimeObjectMetadatum",
+                        "getIntegrationRuntimeStatus",
+                        "getIotHubDataConnection",
+                        "getIpFirewallRule",
+                        "getKey",
+                        "getKustoPoolAttachedDatabaseConfiguration",
+                        "getKustoPoolPrincipalAssignment",
+                        "getPrivateEndpointConnection",
+                        "getPrivateLinkHub",
+                        "getReadWriteDatabase",
+                        "getSqlPool",
+                        "getSqlPoolSensitivityLabel",
+                        "getSqlPoolTransparentDataEncryption",
+                        "getSqlPoolVulnerabilityAssessment",
+                        "getSqlPoolVulnerabilityAssessmentRuleBaseline",
+                        "getSqlPoolWorkloadClassifier",
+                        "getSqlPoolWorkloadGroup",
+                        "getWorkspace",
+                        "getWorkspaceAadAdmin",
+                        "getWorkspaceManagedSqlServerVulnerabilityAssessment",
+                        "getWorkspaceSqlAadAdmin",
+                        "getkustoPool",
+                        "listIntegrationRuntimeAuthKey",
+                        "listKustoPoolFollowerDatabases",
+                        "listKustoPoolLanguageExtensions"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "testbase",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "CustomerEvent",
+                        "FavoriteProcess",
+                        "Package",
+                        "TestBaseAccount"
+                    ],
+                    "Functions": [
+                        "getCustomerEvent",
+                        "getFavoriteProcess",
+                        "getPackage",
+                        "getPackageDownloadURL",
+                        "getTestBaseAccount",
+                        "getTestBaseAccountFileUploadUrl",
+                        "getTestResultDownloadURL",
+                        "getTestResultVideoDownloadURL"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "timeseriesinsights",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AccessPolicy",
+                        "Environment",
+                        "EventHubEventSource",
+                        "EventSource",
+                        "Gen1Environment",
+                        "Gen2Environment",
+                        "IoTHubEventSource",
+                        "PrivateEndpointConnection",
+                        "ReferenceDataSet"
+                    ],
+                    "Functions": [
+                        "getAccessPolicy",
+                        "getEnvironment",
+                        "getEventHubEventSource",
+                        "getEventSource",
+                        "getGen1Environment",
+                        "getGen2Environment",
+                        "getIoTHubEventSource",
+                        "getPrivateEndpointConnection",
+                        "getReferenceDataSet"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "videoanalyzer",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AccessPolicy",
+                        "EdgeModule",
+                        "Video",
+                        "VideoAnalyzer"
+                    ],
+                    "Functions": [
+                        "getAccessPolicy",
+                        "getEdgeModule",
+                        "getVideo",
+                        "getVideoAnalyzer",
+                        "listEdgeModuleProvisioningToken",
+                        "listVideoStreamingToken"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "virtualmachineimages",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "VirtualMachineImageTemplate"
+                    ],
+                    "Functions": [
+                        "getVirtualMachineImageTemplate"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "visualstudio",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Account",
+                        "Extension"
+                    ],
+                    "Functions": [
+                        "getAccount",
+                        "getExtension"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "vmwarecloudsimple",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "DedicatedCloudNode",
+                        "DedicatedCloudService",
+                        "VirtualMachine"
+                    ],
+                    "Functions": [
+                        "getDedicatedCloudNode",
+                        "getDedicatedCloudService",
+                        "getVirtualMachine"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "web",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "AppServiceEnvironment",
+                        "AppServiceEnvironmentPrivateEndpointConnection",
+                        "AppServicePlan",
+                        "AppServicePlanRouteForVnet",
+                        "Certificate",
+                        "Connection",
+                        "ConnectionGateway",
+                        "CustomApi",
+                        "KubeEnvironment",
+                        "StaticSite",
+                        "StaticSiteCustomDomain",
+                        "StaticSitePrivateEndpointConnection",
+                        "StaticSiteUserProvidedFunctionAppForStaticSite",
+                        "StaticSiteUserProvidedFunctionAppForStaticSiteBuild",
+                        "WebApp",
+                        "WebAppApplicationSettings",
+                        "WebAppApplicationSettingsSlot",
+                        "WebAppAuthSettings",
+                        "WebAppAuthSettingsSlot",
+                        "WebAppAuthSettingsV2",
+                        "WebAppAuthSettingsV2Slot",
+                        "WebAppAzureStorageAccounts",
+                        "WebAppAzureStorageAccountsSlot",
+                        "WebAppBackupConfiguration",
+                        "WebAppBackupConfigurationSlot",
+                        "WebAppConnectionStrings",
+                        "WebAppConnectionStringsSlot",
+                        "WebAppDeployment",
+                        "WebAppDeploymentSlot",
+                        "WebAppDiagnosticLogsConfiguration",
+                        "WebAppDomainOwnershipIdentifier",
+                        "WebAppDomainOwnershipIdentifierSlot",
+                        "WebAppFunction",
+                        "WebAppHostNameBinding",
+                        "WebAppHostNameBindingSlot",
+                        "WebAppHybridConnection",
+                        "WebAppHybridConnectionSlot",
+                        "WebAppInstanceFunctionSlot",
+                        "WebAppMetadata",
+                        "WebAppMetadataSlot",
+                        "WebAppPremierAddOn",
+                        "WebAppPremierAddOnSlot",
+                        "WebAppPrivateEndpointConnection",
+                        "WebAppPrivateEndpointConnectionSlot",
+                        "WebAppPublicCertificate",
+                        "WebAppPublicCertificateSlot",
+                        "WebAppRelayServiceConnection",
+                        "WebAppRelayServiceConnectionSlot",
+                        "WebAppSiteExtension",
+                        "WebAppSiteExtensionSlot",
+                        "WebAppSitePushSettings",
+                        "WebAppSitePushSettingsSlot",
+                        "WebAppSlot",
+                        "WebAppSlotConfigurationNames",
+                        "WebAppSourceControl",
+                        "WebAppSourceControlSlot",
+                        "WebAppSwiftVirtualNetworkConnection",
+                        "WebAppSwiftVirtualNetworkConnectionSlot",
+                        "WebAppVnetConnection",
+                        "WebAppVnetConnectionSlot"
+                    ],
+                    "Functions": [
+                        "getAppServiceEnvironment",
+                        "getAppServiceEnvironmentPrivateEndpointConnection",
+                        "getAppServicePlan",
+                        "getCertificate",
+                        "getConnection",
+                        "getConnectionGateway",
+                        "getCustomApi",
+                        "getKubeEnvironment",
+                        "getStaticSite",
+                        "getStaticSiteCustomDomain",
+                        "getStaticSitePrivateEndpointConnection",
+                        "getStaticSiteUserProvidedFunctionAppForStaticSite",
+                        "getStaticSiteUserProvidedFunctionAppForStaticSiteBuild",
+                        "getWebApp",
+                        "getWebAppDeployment",
+                        "getWebAppDeploymentSlot",
+                        "getWebAppDiagnosticLogsConfiguration",
+                        "getWebAppDomainOwnershipIdentifier",
+                        "getWebAppDomainOwnershipIdentifierSlot",
+                        "getWebAppFunction",
+                        "getWebAppHostNameBinding",
+                        "getWebAppHostNameBindingSlot",
+                        "getWebAppHybridConnection",
+                        "getWebAppHybridConnectionSlot",
+                        "getWebAppInstanceFunctionSlot",
+                        "getWebAppPremierAddOn",
+                        "getWebAppPremierAddOnSlot",
+                        "getWebAppPrivateEndpointConnection",
+                        "getWebAppPrivateEndpointConnectionSlot",
+                        "getWebAppPublicCertificate",
+                        "getWebAppPublicCertificateSlot",
+                        "getWebAppRelayServiceConnection",
+                        "getWebAppRelayServiceConnectionSlot",
+                        "getWebAppSiteExtension",
+                        "getWebAppSiteExtensionSlot",
+                        "getWebAppSlot",
+                        "getWebAppSlotConfigurationNames",
+                        "getWebAppSourceControl",
+                        "getWebAppSourceControlSlot",
+                        "getWebAppSwiftVirtualNetworkConnection",
+                        "getWebAppSwiftVirtualNetworkConnectionSlot",
+                        "getWebAppVnetConnection",
+                        "getWebAppVnetConnectionSlot",
+                        "listAppServicePlanHybridConnectionKeys",
+                        "listConnectionConsentLinks",
+                        "listConnectionKeys",
+                        "listCustomApiWsdlInterfaces",
+                        "listSiteIdentifiersAssignedToHostName",
+                        "listStaticSiteAppSettings",
+                        "listStaticSiteBuildAppSettings",
+                        "listStaticSiteBuildFunctionAppSettings",
+                        "listStaticSiteConfiguredRoles",
+                        "listStaticSiteFunctionAppSettings",
+                        "listStaticSiteSecrets",
+                        "listStaticSiteUsers",
+                        "listWebAppApplicationSettings",
+                        "listWebAppApplicationSettingsSlot",
+                        "listWebAppAuthSettings",
+                        "listWebAppAuthSettingsSlot",
+                        "listWebAppAzureStorageAccounts",
+                        "listWebAppAzureStorageAccountsSlot",
+                        "listWebAppBackupConfiguration",
+                        "listWebAppBackupConfigurationSlot",
+                        "listWebAppBackupStatusSecrets",
+                        "listWebAppBackupStatusSecretsSlot",
+                        "listWebAppConnectionStrings",
+                        "listWebAppConnectionStringsSlot",
+                        "listWebAppFunctionKeys",
+                        "listWebAppFunctionKeysSlot",
+                        "listWebAppFunctionSecrets",
+                        "listWebAppFunctionSecretsSlot",
+                        "listWebAppHostKeys",
+                        "listWebAppHostKeysSlot",
+                        "listWebAppHybridConnectionKeys",
+                        "listWebAppHybridConnectionKeysSlot",
+                        "listWebAppMetadata",
+                        "listWebAppMetadataSlot",
+                        "listWebAppPublishingCredentials",
+                        "listWebAppPublishingCredentialsSlot",
+                        "listWebAppSiteBackups",
+                        "listWebAppSiteBackupsSlot",
+                        "listWebAppSitePushSettings",
+                        "listWebAppSitePushSettingsSlot",
+                        "listWebAppSyncFunctionTriggers",
+                        "listWebAppSyncFunctionTriggersSlot"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "webpubsub",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "WebPubSub",
+                        "WebPubSubHub",
+                        "WebPubSubPrivateEndpointConnection",
+                        "WebPubSubSharedPrivateLinkResource"
+                    ],
+                    "Functions": [
+                        "getWebPubSub",
+                        "getWebPubSubHub",
+                        "getWebPubSubPrivateEndpointConnection",
+                        "getWebPubSubSharedPrivateLinkResource",
+                        "listWebPubSubKeys"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "windowsesu",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "MultipleActivationKey"
+                    ],
+                    "Functions": [
+                        "getMultipleActivationKey"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "windowsiot",
+            "SubModules": [
+                {
+                    "Name": "",
+                    "Resources": [
+                        "Service"
+                    ],
+                    "Functions": [
+                        "getService"
+                    ]
+                }
+            ]
+        }
+    ]
+}

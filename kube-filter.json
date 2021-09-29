@@ -1,0 +1,649 @@
+{
+    "Modules": [
+        {
+            "Name": "admissionregistration.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "MutatingWebhookConfiguration",
+                        "MutatingWebhookConfigurationList",
+                        "ValidatingWebhookConfiguration",
+                        "ValidatingWebhookConfigurationList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "MutatingWebhookConfiguration",
+                        "MutatingWebhookConfigurationList",
+                        "ValidatingWebhookConfiguration",
+                        "ValidatingWebhookConfigurationList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "apiextensions.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "CustomResourceDefinition",
+                        "CustomResourceDefinitionList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "CustomResourceDefinition",
+                        "CustomResourceDefinitionList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "apiregistration.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "APIService",
+                        "APIServiceList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "APIService",
+                        "APIServiceList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "apps",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "ControllerRevision",
+                        "ControllerRevisionList",
+                        "DaemonSet",
+                        "DaemonSetList",
+                        "Deployment",
+                        "DeploymentList",
+                        "ReplicaSet",
+                        "ReplicaSetList",
+                        "StatefulSet",
+                        "StatefulSetList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "ControllerRevision",
+                        "ControllerRevisionList",
+                        "Deployment",
+                        "DeploymentList",
+                        "StatefulSet",
+                        "StatefulSetList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta2",
+                    "Resources": [
+                        "ControllerRevision",
+                        "ControllerRevisionList",
+                        "DaemonSet",
+                        "DaemonSetList",
+                        "Deployment",
+                        "DeploymentList",
+                        "ReplicaSet",
+                        "ReplicaSetList",
+                        "StatefulSet",
+                        "StatefulSetList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "auditregistration.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1alpha1",
+                    "Resources": [
+                        "AuditSink",
+                        "AuditSinkList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "authentication.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "TokenRequest",
+                        "TokenReview"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "TokenReview"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "authorization.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "LocalSubjectAccessReview",
+                        "SelfSubjectAccessReview",
+                        "SelfSubjectRulesReview",
+                        "SubjectAccessReview"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "LocalSubjectAccessReview",
+                        "SelfSubjectAccessReview",
+                        "SelfSubjectRulesReview",
+                        "SubjectAccessReview"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "autoscaling",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "HorizontalPodAutoscaler",
+                        "HorizontalPodAutoscalerList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v2beta1",
+                    "Resources": [
+                        "HorizontalPodAutoscaler",
+                        "HorizontalPodAutoscalerList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v2beta2",
+                    "Resources": [
+                        "HorizontalPodAutoscaler",
+                        "HorizontalPodAutoscalerList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "batch",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "CronJob",
+                        "CronJobList",
+                        "Job",
+                        "JobList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "CronJob",
+                        "CronJobList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v2alpha1",
+                    "Resources": [
+                        "CronJob",
+                        "CronJobList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "certificates.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "CertificateSigningRequest",
+                        "CertificateSigningRequestList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "CertificateSigningRequest",
+                        "CertificateSigningRequestList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "coordination.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "Lease",
+                        "LeaseList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "Lease",
+                        "LeaseList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "core",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "Binding",
+                        "ConfigMap",
+                        "ConfigMapList",
+                        "Endpoints",
+                        "EndpointsList",
+                        "Event",
+                        "EventList",
+                        "LimitRange",
+                        "LimitRangeList",
+                        "Namespace",
+                        "NamespaceList",
+                        "Node",
+                        "NodeList",
+                        "PersistentVolume",
+                        "PersistentVolumeClaim",
+                        "PersistentVolumeClaimList",
+                        "PersistentVolumeList",
+                        "Pod",
+                        "PodList",
+                        "PodTemplate",
+                        "PodTemplateList",
+                        "ReplicationController",
+                        "ReplicationControllerList",
+                        "ResourceQuota",
+                        "ResourceQuotaList",
+                        "Secret",
+                        "SecretList",
+                        "Service",
+                        "ServiceAccount",
+                        "ServiceAccountList",
+                        "ServiceList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "discovery.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "EndpointSlice",
+                        "EndpointSliceList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "EndpointSlice",
+                        "EndpointSliceList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "events.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "Event",
+                        "EventList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "Event",
+                        "EventList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "extensions",
+            "SubModules": [
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "DaemonSet",
+                        "DaemonSetList",
+                        "Deployment",
+                        "DeploymentList",
+                        "Ingress",
+                        "IngressList",
+                        "NetworkPolicy",
+                        "NetworkPolicyList",
+                        "PodSecurityPolicy",
+                        "PodSecurityPolicyList",
+                        "ReplicaSet",
+                        "ReplicaSetList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "flowcontrol.apiserver.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1alpha1",
+                    "Resources": [
+                        "FlowSchema",
+                        "FlowSchemaList",
+                        "PriorityLevelConfiguration",
+                        "PriorityLevelConfigurationList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "FlowSchema",
+                        "FlowSchemaList",
+                        "PriorityLevelConfiguration",
+                        "PriorityLevelConfigurationList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "helm.sh",
+            "SubModules": [
+                {
+                    "Name": "v3",
+                    "Resources": [
+                        "Release"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "meta",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "Status"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "networking.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "Ingress",
+                        "IngressClass",
+                        "IngressClassList",
+                        "IngressList",
+                        "NetworkPolicy",
+                        "NetworkPolicyList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "Ingress",
+                        "IngressClass",
+                        "IngressClassList",
+                        "IngressList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "node.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "RuntimeClass",
+                        "RuntimeClassList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1alpha1",
+                    "Resources": [
+                        "RuntimeClass",
+                        "RuntimeClassList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "RuntimeClass",
+                        "RuntimeClassList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "policy",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "PodDisruptionBudget",
+                        "PodDisruptionBudgetList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "PodDisruptionBudget",
+                        "PodDisruptionBudgetList",
+                        "PodSecurityPolicy",
+                        "PodSecurityPolicyList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "rbac.authorization.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "ClusterRole",
+                        "ClusterRoleBinding",
+                        "ClusterRoleBindingList",
+                        "ClusterRoleList",
+                        "Role",
+                        "RoleBinding",
+                        "RoleBindingList",
+                        "RoleList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1alpha1",
+                    "Resources": [
+                        "ClusterRole",
+                        "ClusterRoleBinding",
+                        "ClusterRoleBindingList",
+                        "ClusterRoleList",
+                        "Role",
+                        "RoleBinding",
+                        "RoleBindingList",
+                        "RoleList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "ClusterRole",
+                        "ClusterRoleBinding",
+                        "ClusterRoleBindingList",
+                        "ClusterRoleList",
+                        "Role",
+                        "RoleBinding",
+                        "RoleBindingList",
+                        "RoleList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "scheduling.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "PriorityClass",
+                        "PriorityClassList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1alpha1",
+                    "Resources": [
+                        "PriorityClass",
+                        "PriorityClassList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "PriorityClass",
+                        "PriorityClassList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "settings.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1alpha1",
+                    "Resources": [
+                        "PodPreset",
+                        "PodPresetList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        },
+        {
+            "Name": "storage.k8s.io",
+            "SubModules": [
+                {
+                    "Name": "v1",
+                    "Resources": [
+                        "CSIDriver",
+                        "CSIDriverList",
+                        "CSINode",
+                        "CSINodeList",
+                        "StorageClass",
+                        "StorageClassList",
+                        "VolumeAttachment",
+                        "VolumeAttachmentList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1alpha1",
+                    "Resources": [
+                        "CSIStorageCapacity",
+                        "CSIStorageCapacityList",
+                        "VolumeAttachment",
+                        "VolumeAttachmentList"
+                    ],
+                    "Functions": null
+                },
+                {
+                    "Name": "v1beta1",
+                    "Resources": [
+                        "CSIDriver",
+                        "CSIDriverList",
+                        "CSINode",
+                        "CSINodeList",
+                        "CSIStorageCapacity",
+                        "CSIStorageCapacityList",
+                        "StorageClass",
+                        "StorageClassList",
+                        "VolumeAttachment",
+                        "VolumeAttachmentList"
+                    ],
+                    "Functions": null
+                }
+            ]
+        }
+    ]
+}
