@@ -38,15 +38,15 @@ func main() {
 		}
 
 		// compute some stats on filters
-		modules := len(filterSpec.Modules)
+		modules := len(filterSpec.Nodes)
 		subModules := 0
 		leafNodes := 0
 
-		for _, m := range filterSpec.Modules {
-			subModules += len(m.SubModules)
-			for _, s := range m.SubModules {
-				leafNodes += len(s.Functions)
-				leafNodes += len(s.Resources)
+		// manually traverse to depth 3...
+		for _, m := range filterSpec.Nodes {
+			subModules += len(m.Children)
+			for _, s := range m.Children {
+				leafNodes += len(s.Children)
 			}
 		}
 
@@ -64,19 +64,16 @@ func main() {
 	}
 }
 
+type FilterNode struct {
+	Name       string       `json:"name"`
+	Type       string       `json:"type"`
+	ParentName string       `json:"parentName"`
+	Children   []FilterNode `json:"children"`
+	Token      string       `json:"token"`
+}
+
 type FilterSpec struct {
-	Modules []ModuleSpec
-}
-
-type ModuleSpec struct {
-	Name       string
-	SubModules []SubModuleSpec
-}
-
-type SubModuleSpec struct {
-	Name      string
-	Resources []string
-	Functions []string
+	Nodes []FilterNode `json:"nodes"`
 }
 
 type Node struct {
@@ -90,45 +87,63 @@ type Node struct {
 func buildFilterSpec(nodes []Node) (FilterSpec, error) {
 	filterSpec := FilterSpec{}
 
-	modSpec := ModuleSpec{
-		Name: nodes[0].Module,
+	modSpec := FilterNode{
+		Name:       nodes[0].Module,
+		Type:       "module",
+		ParentName: "",
 	}
-	subModule := SubModuleSpec{
-		Name: nodes[0].SubModule,
+	subModule := FilterNode{
+		Name:       nodes[0].SubModule,
+		Type:       "module",
+		ParentName: modSpec.Name,
 	}
 	// run through nodes in sorted order and build up the filter tree
 	for _, n := range nodes {
 		if n.Module != modSpec.Name {
 			// done with this module, pop into the filter spec
-			modSpec.SubModules = append(modSpec.SubModules, subModule)
-			filterSpec.Modules = append(filterSpec.Modules, modSpec)
-			modSpec = ModuleSpec{
-				Name: n.Module,
+			modSpec.Children = append(modSpec.Children, subModule)
+			filterSpec.Nodes = append(filterSpec.Nodes, modSpec)
+			modSpec = FilterNode{
+				Name:       n.Module,
+				Type:       "module",
+				ParentName: "",
 			}
-			subModule = SubModuleSpec{
-				Name: n.SubModule,
+			subModule = FilterNode{
+				Name:       n.SubModule,
+				Type:       "module",
+				ParentName: modSpec.Name,
 			}
 		}
 
 		if n.SubModule != subModule.Name {
 			// done with this submod, pop it into the module
-			modSpec.SubModules = append(modSpec.SubModules, subModule)
-			subModule = SubModuleSpec{
-				Name: n.SubModule,
+			modSpec.Children = append(modSpec.Children, subModule)
+			subModule = FilterNode{
+				Name:       n.SubModule,
+				Type:       "module",
+				ParentName: modSpec.Name,
 			}
+		}
+
+		leaf := FilterNode{
+			Name:       n.Name,
+			ParentName: subModule.Name,
+			Token:      n.Token,
 		}
 
 		// pop the resource/function into the submod
 		if n.IsFunction {
-			subModule.Functions = append(subModule.Functions, n.Name)
+			leaf.Type = "function"
 		} else {
-			subModule.Resources = append(subModule.Resources, n.Name)
+			leaf.Type = "resource"
 		}
+
+		subModule.Children = append(subModule.Children, leaf)
 	}
 
 	// push the final submod and module into the filter spec
-	modSpec.SubModules = append(modSpec.SubModules, subModule)
-	filterSpec.Modules = append(filterSpec.Modules, modSpec)
+	modSpec.Children = append(modSpec.Children, subModule)
+	filterSpec.Nodes = append(filterSpec.Nodes, modSpec)
 
 	return filterSpec, nil
 }

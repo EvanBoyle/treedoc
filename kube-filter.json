@@ -1,649 +1,2110 @@
 {
-    "Modules": [
+    "nodes": [
         {
-            "Name": "admissionregistration.k8s.io",
-            "SubModules": [
+            "name": "admissionregistration.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "MutatingWebhookConfiguration",
-                        "MutatingWebhookConfigurationList",
-                        "ValidatingWebhookConfiguration",
-                        "ValidatingWebhookConfigurationList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "admissionregistration.k8s.io",
+                    "children": [
+                        {
+                            "name": "MutatingWebhookConfiguration",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:MutatingWebhookConfiguration"
+                        },
+                        {
+                            "name": "MutatingWebhookConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:MutatingWebhookConfigurationList"
+                        },
+                        {
+                            "name": "ValidatingWebhookConfiguration",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:ValidatingWebhookConfiguration"
+                        },
+                        {
+                            "name": "ValidatingWebhookConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:ValidatingWebhookConfigurationList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "MutatingWebhookConfiguration",
-                        "MutatingWebhookConfigurationList",
-                        "ValidatingWebhookConfiguration",
-                        "ValidatingWebhookConfigurationList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "admissionregistration.k8s.io",
+                    "children": [
+                        {
+                            "name": "MutatingWebhookConfiguration",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1beta1:MutatingWebhookConfiguration"
+                        },
+                        {
+                            "name": "MutatingWebhookConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1beta1:MutatingWebhookConfigurationList"
+                        },
+                        {
+                            "name": "ValidatingWebhookConfiguration",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1beta1:ValidatingWebhookConfiguration"
+                        },
+                        {
+                            "name": "ValidatingWebhookConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1beta1:ValidatingWebhookConfigurationList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "apiextensions.k8s.io",
-            "SubModules": [
+            "name": "apiextensions.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "CustomResourceDefinition",
-                        "CustomResourceDefinitionList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "apiextensions.k8s.io",
+                    "children": [
+                        {
+                            "name": "CustomResourceDefinition",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apiextensions.k8s.io/v1:CustomResourceDefinition"
+                        },
+                        {
+                            "name": "CustomResourceDefinitionList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apiextensions.k8s.io/v1:CustomResourceDefinitionList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "CustomResourceDefinition",
-                        "CustomResourceDefinitionList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "apiextensions.k8s.io",
+                    "children": [
+                        {
+                            "name": "CustomResourceDefinition",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apiextensions.k8s.io/v1beta1:CustomResourceDefinition"
+                        },
+                        {
+                            "name": "CustomResourceDefinitionList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apiextensions.k8s.io/v1beta1:CustomResourceDefinitionList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "apiregistration.k8s.io",
-            "SubModules": [
+            "name": "apiregistration.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "APIService",
-                        "APIServiceList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "apiregistration.k8s.io",
+                    "children": [
+                        {
+                            "name": "APIService",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apiregistration.k8s.io/v1:APIService"
+                        },
+                        {
+                            "name": "APIServiceList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apiregistration.k8s.io/v1:APIServiceList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "APIService",
-                        "APIServiceList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "apiregistration.k8s.io",
+                    "children": [
+                        {
+                            "name": "APIService",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apiregistration.k8s.io/v1beta1:APIService"
+                        },
+                        {
+                            "name": "APIServiceList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apiregistration.k8s.io/v1beta1:APIServiceList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "apps",
-            "SubModules": [
+            "name": "apps",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "ControllerRevision",
-                        "ControllerRevisionList",
-                        "DaemonSet",
-                        "DaemonSetList",
-                        "Deployment",
-                        "DeploymentList",
-                        "ReplicaSet",
-                        "ReplicaSetList",
-                        "StatefulSet",
-                        "StatefulSetList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "apps",
+                    "children": [
+                        {
+                            "name": "ControllerRevision",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:ControllerRevision"
+                        },
+                        {
+                            "name": "ControllerRevisionList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:ControllerRevisionList"
+                        },
+                        {
+                            "name": "DaemonSet",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:DaemonSet"
+                        },
+                        {
+                            "name": "DaemonSetList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:DaemonSetList"
+                        },
+                        {
+                            "name": "Deployment",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:Deployment"
+                        },
+                        {
+                            "name": "DeploymentList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:DeploymentList"
+                        },
+                        {
+                            "name": "ReplicaSet",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:ReplicaSet"
+                        },
+                        {
+                            "name": "ReplicaSetList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:ReplicaSetList"
+                        },
+                        {
+                            "name": "StatefulSet",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:StatefulSet"
+                        },
+                        {
+                            "name": "StatefulSetList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1:StatefulSetList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "ControllerRevision",
-                        "ControllerRevisionList",
-                        "Deployment",
-                        "DeploymentList",
-                        "StatefulSet",
-                        "StatefulSetList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "apps",
+                    "children": [
+                        {
+                            "name": "ControllerRevision",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta1:ControllerRevision"
+                        },
+                        {
+                            "name": "ControllerRevisionList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta1:ControllerRevisionList"
+                        },
+                        {
+                            "name": "Deployment",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta1:Deployment"
+                        },
+                        {
+                            "name": "DeploymentList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta1:DeploymentList"
+                        },
+                        {
+                            "name": "StatefulSet",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta1:StatefulSet"
+                        },
+                        {
+                            "name": "StatefulSetList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta1:StatefulSetList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta2",
-                    "Resources": [
-                        "ControllerRevision",
-                        "ControllerRevisionList",
-                        "DaemonSet",
-                        "DaemonSetList",
-                        "Deployment",
-                        "DeploymentList",
-                        "ReplicaSet",
-                        "ReplicaSetList",
-                        "StatefulSet",
-                        "StatefulSetList"
+                    "name": "v1beta2",
+                    "type": "module",
+                    "parentName": "apps",
+                    "children": [
+                        {
+                            "name": "ControllerRevision",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:ControllerRevision"
+                        },
+                        {
+                            "name": "ControllerRevisionList",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:ControllerRevisionList"
+                        },
+                        {
+                            "name": "DaemonSet",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:DaemonSet"
+                        },
+                        {
+                            "name": "DaemonSetList",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:DaemonSetList"
+                        },
+                        {
+                            "name": "Deployment",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:Deployment"
+                        },
+                        {
+                            "name": "DeploymentList",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:DeploymentList"
+                        },
+                        {
+                            "name": "ReplicaSet",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:ReplicaSet"
+                        },
+                        {
+                            "name": "ReplicaSetList",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:ReplicaSetList"
+                        },
+                        {
+                            "name": "StatefulSet",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:StatefulSet"
+                        },
+                        {
+                            "name": "StatefulSetList",
+                            "type": "resource",
+                            "parentName": "v1beta2",
+                            "children": null,
+                            "token": "kubernetes:apps/v1beta2:StatefulSetList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "auditregistration.k8s.io",
-            "SubModules": [
+            "name": "auditregistration.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1alpha1",
-                    "Resources": [
-                        "AuditSink",
-                        "AuditSinkList"
+                    "name": "v1alpha1",
+                    "type": "module",
+                    "parentName": "auditregistration.k8s.io",
+                    "children": [
+                        {
+                            "name": "AuditSink",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:auditregistration.k8s.io/v1alpha1:AuditSink"
+                        },
+                        {
+                            "name": "AuditSinkList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:auditregistration.k8s.io/v1alpha1:AuditSinkList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "authentication.k8s.io",
-            "SubModules": [
+            "name": "authentication.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "TokenRequest",
-                        "TokenReview"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "authentication.k8s.io",
+                    "children": [
+                        {
+                            "name": "TokenRequest",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:authentication.k8s.io/v1:TokenRequest"
+                        },
+                        {
+                            "name": "TokenReview",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:authentication.k8s.io/v1:TokenReview"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "TokenReview"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "authentication.k8s.io",
+                    "children": [
+                        {
+                            "name": "TokenReview",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:authentication.k8s.io/v1beta1:TokenReview"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "authorization.k8s.io",
-            "SubModules": [
+            "name": "authorization.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "LocalSubjectAccessReview",
-                        "SelfSubjectAccessReview",
-                        "SelfSubjectRulesReview",
-                        "SubjectAccessReview"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "authorization.k8s.io",
+                    "children": [
+                        {
+                            "name": "LocalSubjectAccessReview",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1:LocalSubjectAccessReview"
+                        },
+                        {
+                            "name": "SelfSubjectAccessReview",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1:SelfSubjectAccessReview"
+                        },
+                        {
+                            "name": "SelfSubjectRulesReview",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1:SelfSubjectRulesReview"
+                        },
+                        {
+                            "name": "SubjectAccessReview",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1:SubjectAccessReview"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "LocalSubjectAccessReview",
-                        "SelfSubjectAccessReview",
-                        "SelfSubjectRulesReview",
-                        "SubjectAccessReview"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "authorization.k8s.io",
+                    "children": [
+                        {
+                            "name": "LocalSubjectAccessReview",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1beta1:LocalSubjectAccessReview"
+                        },
+                        {
+                            "name": "SelfSubjectAccessReview",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1beta1:SelfSubjectAccessReview"
+                        },
+                        {
+                            "name": "SelfSubjectRulesReview",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1beta1:SelfSubjectRulesReview"
+                        },
+                        {
+                            "name": "SubjectAccessReview",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:authorization.k8s.io/v1beta1:SubjectAccessReview"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "autoscaling",
-            "SubModules": [
+            "name": "autoscaling",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "HorizontalPodAutoscaler",
-                        "HorizontalPodAutoscalerList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "autoscaling",
+                    "children": [
+                        {
+                            "name": "HorizontalPodAutoscaler",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:autoscaling/v1:HorizontalPodAutoscaler"
+                        },
+                        {
+                            "name": "HorizontalPodAutoscalerList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:autoscaling/v1:HorizontalPodAutoscalerList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v2beta1",
-                    "Resources": [
-                        "HorizontalPodAutoscaler",
-                        "HorizontalPodAutoscalerList"
+                    "name": "v2beta1",
+                    "type": "module",
+                    "parentName": "autoscaling",
+                    "children": [
+                        {
+                            "name": "HorizontalPodAutoscaler",
+                            "type": "resource",
+                            "parentName": "v2beta1",
+                            "children": null,
+                            "token": "kubernetes:autoscaling/v2beta1:HorizontalPodAutoscaler"
+                        },
+                        {
+                            "name": "HorizontalPodAutoscalerList",
+                            "type": "resource",
+                            "parentName": "v2beta1",
+                            "children": null,
+                            "token": "kubernetes:autoscaling/v2beta1:HorizontalPodAutoscalerList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v2beta2",
-                    "Resources": [
-                        "HorizontalPodAutoscaler",
-                        "HorizontalPodAutoscalerList"
+                    "name": "v2beta2",
+                    "type": "module",
+                    "parentName": "autoscaling",
+                    "children": [
+                        {
+                            "name": "HorizontalPodAutoscaler",
+                            "type": "resource",
+                            "parentName": "v2beta2",
+                            "children": null,
+                            "token": "kubernetes:autoscaling/v2beta2:HorizontalPodAutoscaler"
+                        },
+                        {
+                            "name": "HorizontalPodAutoscalerList",
+                            "type": "resource",
+                            "parentName": "v2beta2",
+                            "children": null,
+                            "token": "kubernetes:autoscaling/v2beta2:HorizontalPodAutoscalerList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "batch",
-            "SubModules": [
+            "name": "batch",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "CronJob",
-                        "CronJobList",
-                        "Job",
-                        "JobList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "batch",
+                    "children": [
+                        {
+                            "name": "CronJob",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:batch/v1:CronJob"
+                        },
+                        {
+                            "name": "CronJobList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:batch/v1:CronJobList"
+                        },
+                        {
+                            "name": "Job",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:batch/v1:Job"
+                        },
+                        {
+                            "name": "JobList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:batch/v1:JobList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "CronJob",
-                        "CronJobList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "batch",
+                    "children": [
+                        {
+                            "name": "CronJob",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:batch/v1beta1:CronJob"
+                        },
+                        {
+                            "name": "CronJobList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:batch/v1beta1:CronJobList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v2alpha1",
-                    "Resources": [
-                        "CronJob",
-                        "CronJobList"
+                    "name": "v2alpha1",
+                    "type": "module",
+                    "parentName": "batch",
+                    "children": [
+                        {
+                            "name": "CronJob",
+                            "type": "resource",
+                            "parentName": "v2alpha1",
+                            "children": null,
+                            "token": "kubernetes:batch/v2alpha1:CronJob"
+                        },
+                        {
+                            "name": "CronJobList",
+                            "type": "resource",
+                            "parentName": "v2alpha1",
+                            "children": null,
+                            "token": "kubernetes:batch/v2alpha1:CronJobList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "certificates.k8s.io",
-            "SubModules": [
+            "name": "certificates.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "CertificateSigningRequest",
-                        "CertificateSigningRequestList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "certificates.k8s.io",
+                    "children": [
+                        {
+                            "name": "CertificateSigningRequest",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:certificates.k8s.io/v1:CertificateSigningRequest"
+                        },
+                        {
+                            "name": "CertificateSigningRequestList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:certificates.k8s.io/v1:CertificateSigningRequestList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "CertificateSigningRequest",
-                        "CertificateSigningRequestList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "certificates.k8s.io",
+                    "children": [
+                        {
+                            "name": "CertificateSigningRequest",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:certificates.k8s.io/v1beta1:CertificateSigningRequest"
+                        },
+                        {
+                            "name": "CertificateSigningRequestList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:certificates.k8s.io/v1beta1:CertificateSigningRequestList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "coordination.k8s.io",
-            "SubModules": [
+            "name": "coordination.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "Lease",
-                        "LeaseList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "coordination.k8s.io",
+                    "children": [
+                        {
+                            "name": "Lease",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:coordination.k8s.io/v1:Lease"
+                        },
+                        {
+                            "name": "LeaseList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:coordination.k8s.io/v1:LeaseList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "Lease",
-                        "LeaseList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "coordination.k8s.io",
+                    "children": [
+                        {
+                            "name": "Lease",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:coordination.k8s.io/v1beta1:Lease"
+                        },
+                        {
+                            "name": "LeaseList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:coordination.k8s.io/v1beta1:LeaseList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "core",
-            "SubModules": [
+            "name": "core",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "Binding",
-                        "ConfigMap",
-                        "ConfigMapList",
-                        "Endpoints",
-                        "EndpointsList",
-                        "Event",
-                        "EventList",
-                        "LimitRange",
-                        "LimitRangeList",
-                        "Namespace",
-                        "NamespaceList",
-                        "Node",
-                        "NodeList",
-                        "PersistentVolume",
-                        "PersistentVolumeClaim",
-                        "PersistentVolumeClaimList",
-                        "PersistentVolumeList",
-                        "Pod",
-                        "PodList",
-                        "PodTemplate",
-                        "PodTemplateList",
-                        "ReplicationController",
-                        "ReplicationControllerList",
-                        "ResourceQuota",
-                        "ResourceQuotaList",
-                        "Secret",
-                        "SecretList",
-                        "Service",
-                        "ServiceAccount",
-                        "ServiceAccountList",
-                        "ServiceList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "core",
+                    "children": [
+                        {
+                            "name": "Binding",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Binding"
+                        },
+                        {
+                            "name": "ConfigMap",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ConfigMap"
+                        },
+                        {
+                            "name": "ConfigMapList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ConfigMapList"
+                        },
+                        {
+                            "name": "Endpoints",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Endpoints"
+                        },
+                        {
+                            "name": "EndpointsList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:EndpointsList"
+                        },
+                        {
+                            "name": "Event",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Event"
+                        },
+                        {
+                            "name": "EventList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:EventList"
+                        },
+                        {
+                            "name": "LimitRange",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:LimitRange"
+                        },
+                        {
+                            "name": "LimitRangeList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:LimitRangeList"
+                        },
+                        {
+                            "name": "Namespace",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Namespace"
+                        },
+                        {
+                            "name": "NamespaceList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:NamespaceList"
+                        },
+                        {
+                            "name": "Node",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Node"
+                        },
+                        {
+                            "name": "NodeList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:NodeList"
+                        },
+                        {
+                            "name": "PersistentVolume",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:PersistentVolume"
+                        },
+                        {
+                            "name": "PersistentVolumeClaim",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:PersistentVolumeClaim"
+                        },
+                        {
+                            "name": "PersistentVolumeClaimList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:PersistentVolumeClaimList"
+                        },
+                        {
+                            "name": "PersistentVolumeList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:PersistentVolumeList"
+                        },
+                        {
+                            "name": "Pod",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Pod"
+                        },
+                        {
+                            "name": "PodList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:PodList"
+                        },
+                        {
+                            "name": "PodTemplate",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:PodTemplate"
+                        },
+                        {
+                            "name": "PodTemplateList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:PodTemplateList"
+                        },
+                        {
+                            "name": "ReplicationController",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ReplicationController"
+                        },
+                        {
+                            "name": "ReplicationControllerList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ReplicationControllerList"
+                        },
+                        {
+                            "name": "ResourceQuota",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ResourceQuota"
+                        },
+                        {
+                            "name": "ResourceQuotaList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ResourceQuotaList"
+                        },
+                        {
+                            "name": "Secret",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Secret"
+                        },
+                        {
+                            "name": "SecretList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:SecretList"
+                        },
+                        {
+                            "name": "Service",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:Service"
+                        },
+                        {
+                            "name": "ServiceAccount",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ServiceAccount"
+                        },
+                        {
+                            "name": "ServiceAccountList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ServiceAccountList"
+                        },
+                        {
+                            "name": "ServiceList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:core/v1:ServiceList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "discovery.k8s.io",
-            "SubModules": [
+            "name": "discovery.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "EndpointSlice",
-                        "EndpointSliceList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "discovery.k8s.io",
+                    "children": [
+                        {
+                            "name": "EndpointSlice",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:discovery.k8s.io/v1:EndpointSlice"
+                        },
+                        {
+                            "name": "EndpointSliceList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:discovery.k8s.io/v1:EndpointSliceList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "EndpointSlice",
-                        "EndpointSliceList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "discovery.k8s.io",
+                    "children": [
+                        {
+                            "name": "EndpointSlice",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:discovery.k8s.io/v1beta1:EndpointSlice"
+                        },
+                        {
+                            "name": "EndpointSliceList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:discovery.k8s.io/v1beta1:EndpointSliceList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "events.k8s.io",
-            "SubModules": [
+            "name": "events.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "Event",
-                        "EventList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "events.k8s.io",
+                    "children": [
+                        {
+                            "name": "Event",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:events.k8s.io/v1:Event"
+                        },
+                        {
+                            "name": "EventList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:events.k8s.io/v1:EventList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "Event",
-                        "EventList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "events.k8s.io",
+                    "children": [
+                        {
+                            "name": "Event",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:events.k8s.io/v1beta1:Event"
+                        },
+                        {
+                            "name": "EventList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:events.k8s.io/v1beta1:EventList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "extensions",
-            "SubModules": [
+            "name": "extensions",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "DaemonSet",
-                        "DaemonSetList",
-                        "Deployment",
-                        "DeploymentList",
-                        "Ingress",
-                        "IngressList",
-                        "NetworkPolicy",
-                        "NetworkPolicyList",
-                        "PodSecurityPolicy",
-                        "PodSecurityPolicyList",
-                        "ReplicaSet",
-                        "ReplicaSetList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "extensions",
+                    "children": [
+                        {
+                            "name": "DaemonSet",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:DaemonSet"
+                        },
+                        {
+                            "name": "DaemonSetList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:DaemonSetList"
+                        },
+                        {
+                            "name": "Deployment",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:Deployment"
+                        },
+                        {
+                            "name": "DeploymentList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:DeploymentList"
+                        },
+                        {
+                            "name": "Ingress",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:Ingress"
+                        },
+                        {
+                            "name": "IngressList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:IngressList"
+                        },
+                        {
+                            "name": "NetworkPolicy",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:NetworkPolicy"
+                        },
+                        {
+                            "name": "NetworkPolicyList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:NetworkPolicyList"
+                        },
+                        {
+                            "name": "PodSecurityPolicy",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:PodSecurityPolicy"
+                        },
+                        {
+                            "name": "PodSecurityPolicyList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:PodSecurityPolicyList"
+                        },
+                        {
+                            "name": "ReplicaSet",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:ReplicaSet"
+                        },
+                        {
+                            "name": "ReplicaSetList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:extensions/v1beta1:ReplicaSetList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "flowcontrol.apiserver.k8s.io",
-            "SubModules": [
+            "name": "flowcontrol.apiserver.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1alpha1",
-                    "Resources": [
-                        "FlowSchema",
-                        "FlowSchemaList",
-                        "PriorityLevelConfiguration",
-                        "PriorityLevelConfigurationList"
+                    "name": "v1alpha1",
+                    "type": "module",
+                    "parentName": "flowcontrol.apiserver.k8s.io",
+                    "children": [
+                        {
+                            "name": "FlowSchema",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1alpha1:FlowSchema"
+                        },
+                        {
+                            "name": "FlowSchemaList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1alpha1:FlowSchemaList"
+                        },
+                        {
+                            "name": "PriorityLevelConfiguration",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1alpha1:PriorityLevelConfiguration"
+                        },
+                        {
+                            "name": "PriorityLevelConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1alpha1:PriorityLevelConfigurationList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "FlowSchema",
-                        "FlowSchemaList",
-                        "PriorityLevelConfiguration",
-                        "PriorityLevelConfigurationList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "flowcontrol.apiserver.k8s.io",
+                    "children": [
+                        {
+                            "name": "FlowSchema",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1beta1:FlowSchema"
+                        },
+                        {
+                            "name": "FlowSchemaList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1beta1:FlowSchemaList"
+                        },
+                        {
+                            "name": "PriorityLevelConfiguration",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1beta1:PriorityLevelConfiguration"
+                        },
+                        {
+                            "name": "PriorityLevelConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:flowcontrol.apiserver.k8s.io/v1beta1:PriorityLevelConfigurationList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "helm.sh",
-            "SubModules": [
+            "name": "helm.sh",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v3",
-                    "Resources": [
-                        "Release"
+                    "name": "v3",
+                    "type": "module",
+                    "parentName": "helm.sh",
+                    "children": [
+                        {
+                            "name": "Release",
+                            "type": "resource",
+                            "parentName": "v3",
+                            "children": null,
+                            "token": "kubernetes:helm.sh/v3:Release"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "meta",
-            "SubModules": [
+            "name": "meta",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "Status"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "meta",
+                    "children": [
+                        {
+                            "name": "Status",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:meta/v1:Status"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "networking.k8s.io",
-            "SubModules": [
+            "name": "networking.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "Ingress",
-                        "IngressClass",
-                        "IngressClassList",
-                        "IngressList",
-                        "NetworkPolicy",
-                        "NetworkPolicyList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "networking.k8s.io",
+                    "children": [
+                        {
+                            "name": "Ingress",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1:Ingress"
+                        },
+                        {
+                            "name": "IngressClass",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1:IngressClass"
+                        },
+                        {
+                            "name": "IngressClassList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1:IngressClassList"
+                        },
+                        {
+                            "name": "IngressList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1:IngressList"
+                        },
+                        {
+                            "name": "NetworkPolicy",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1:NetworkPolicy"
+                        },
+                        {
+                            "name": "NetworkPolicyList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1:NetworkPolicyList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "Ingress",
-                        "IngressClass",
-                        "IngressClassList",
-                        "IngressList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "networking.k8s.io",
+                    "children": [
+                        {
+                            "name": "Ingress",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1beta1:Ingress"
+                        },
+                        {
+                            "name": "IngressClass",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1beta1:IngressClass"
+                        },
+                        {
+                            "name": "IngressClassList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1beta1:IngressClassList"
+                        },
+                        {
+                            "name": "IngressList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:networking.k8s.io/v1beta1:IngressList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "node.k8s.io",
-            "SubModules": [
+            "name": "node.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "RuntimeClass",
-                        "RuntimeClassList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "node.k8s.io",
+                    "children": [
+                        {
+                            "name": "RuntimeClass",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:node.k8s.io/v1:RuntimeClass"
+                        },
+                        {
+                            "name": "RuntimeClassList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:node.k8s.io/v1:RuntimeClassList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1alpha1",
-                    "Resources": [
-                        "RuntimeClass",
-                        "RuntimeClassList"
+                    "name": "v1alpha1",
+                    "type": "module",
+                    "parentName": "node.k8s.io",
+                    "children": [
+                        {
+                            "name": "RuntimeClass",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:node.k8s.io/v1alpha1:RuntimeClass"
+                        },
+                        {
+                            "name": "RuntimeClassList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:node.k8s.io/v1alpha1:RuntimeClassList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "RuntimeClass",
-                        "RuntimeClassList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "node.k8s.io",
+                    "children": [
+                        {
+                            "name": "RuntimeClass",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:node.k8s.io/v1beta1:RuntimeClass"
+                        },
+                        {
+                            "name": "RuntimeClassList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:node.k8s.io/v1beta1:RuntimeClassList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "policy",
-            "SubModules": [
+            "name": "policy",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "PodDisruptionBudget",
-                        "PodDisruptionBudgetList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "policy",
+                    "children": [
+                        {
+                            "name": "PodDisruptionBudget",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:policy/v1:PodDisruptionBudget"
+                        },
+                        {
+                            "name": "PodDisruptionBudgetList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:policy/v1:PodDisruptionBudgetList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "PodDisruptionBudget",
-                        "PodDisruptionBudgetList",
-                        "PodSecurityPolicy",
-                        "PodSecurityPolicyList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "policy",
+                    "children": [
+                        {
+                            "name": "PodDisruptionBudget",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:policy/v1beta1:PodDisruptionBudget"
+                        },
+                        {
+                            "name": "PodDisruptionBudgetList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:policy/v1beta1:PodDisruptionBudgetList"
+                        },
+                        {
+                            "name": "PodSecurityPolicy",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:policy/v1beta1:PodSecurityPolicy"
+                        },
+                        {
+                            "name": "PodSecurityPolicyList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:policy/v1beta1:PodSecurityPolicyList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "rbac.authorization.k8s.io",
-            "SubModules": [
+            "name": "rbac.authorization.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "ClusterRole",
-                        "ClusterRoleBinding",
-                        "ClusterRoleBindingList",
-                        "ClusterRoleList",
-                        "Role",
-                        "RoleBinding",
-                        "RoleBindingList",
-                        "RoleList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "rbac.authorization.k8s.io",
+                    "children": [
+                        {
+                            "name": "ClusterRole",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:ClusterRole"
+                        },
+                        {
+                            "name": "ClusterRoleBinding",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:ClusterRoleBinding"
+                        },
+                        {
+                            "name": "ClusterRoleBindingList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:ClusterRoleBindingList"
+                        },
+                        {
+                            "name": "ClusterRoleList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:ClusterRoleList"
+                        },
+                        {
+                            "name": "Role",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:Role"
+                        },
+                        {
+                            "name": "RoleBinding",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:RoleBinding"
+                        },
+                        {
+                            "name": "RoleBindingList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:RoleBindingList"
+                        },
+                        {
+                            "name": "RoleList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1:RoleList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1alpha1",
-                    "Resources": [
-                        "ClusterRole",
-                        "ClusterRoleBinding",
-                        "ClusterRoleBindingList",
-                        "ClusterRoleList",
-                        "Role",
-                        "RoleBinding",
-                        "RoleBindingList",
-                        "RoleList"
+                    "name": "v1alpha1",
+                    "type": "module",
+                    "parentName": "rbac.authorization.k8s.io",
+                    "children": [
+                        {
+                            "name": "ClusterRole",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:ClusterRole"
+                        },
+                        {
+                            "name": "ClusterRoleBinding",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:ClusterRoleBinding"
+                        },
+                        {
+                            "name": "ClusterRoleBindingList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:ClusterRoleBindingList"
+                        },
+                        {
+                            "name": "ClusterRoleList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:ClusterRoleList"
+                        },
+                        {
+                            "name": "Role",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:Role"
+                        },
+                        {
+                            "name": "RoleBinding",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:RoleBinding"
+                        },
+                        {
+                            "name": "RoleBindingList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:RoleBindingList"
+                        },
+                        {
+                            "name": "RoleList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1alpha1:RoleList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "ClusterRole",
-                        "ClusterRoleBinding",
-                        "ClusterRoleBindingList",
-                        "ClusterRoleList",
-                        "Role",
-                        "RoleBinding",
-                        "RoleBindingList",
-                        "RoleList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "rbac.authorization.k8s.io",
+                    "children": [
+                        {
+                            "name": "ClusterRole",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:ClusterRole"
+                        },
+                        {
+                            "name": "ClusterRoleBinding",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:ClusterRoleBinding"
+                        },
+                        {
+                            "name": "ClusterRoleBindingList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:ClusterRoleBindingList"
+                        },
+                        {
+                            "name": "ClusterRoleList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:ClusterRoleList"
+                        },
+                        {
+                            "name": "Role",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:Role"
+                        },
+                        {
+                            "name": "RoleBinding",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:RoleBinding"
+                        },
+                        {
+                            "name": "RoleBindingList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:RoleBindingList"
+                        },
+                        {
+                            "name": "RoleList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:rbac.authorization.k8s.io/v1beta1:RoleList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "scheduling.k8s.io",
-            "SubModules": [
+            "name": "scheduling.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "PriorityClass",
-                        "PriorityClassList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "scheduling.k8s.io",
+                    "children": [
+                        {
+                            "name": "PriorityClass",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:scheduling.k8s.io/v1:PriorityClass"
+                        },
+                        {
+                            "name": "PriorityClassList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:scheduling.k8s.io/v1:PriorityClassList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1alpha1",
-                    "Resources": [
-                        "PriorityClass",
-                        "PriorityClassList"
+                    "name": "v1alpha1",
+                    "type": "module",
+                    "parentName": "scheduling.k8s.io",
+                    "children": [
+                        {
+                            "name": "PriorityClass",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:scheduling.k8s.io/v1alpha1:PriorityClass"
+                        },
+                        {
+                            "name": "PriorityClassList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:scheduling.k8s.io/v1alpha1:PriorityClassList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "PriorityClass",
-                        "PriorityClassList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "scheduling.k8s.io",
+                    "children": [
+                        {
+                            "name": "PriorityClass",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:scheduling.k8s.io/v1beta1:PriorityClass"
+                        },
+                        {
+                            "name": "PriorityClassList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:scheduling.k8s.io/v1beta1:PriorityClassList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "settings.k8s.io",
-            "SubModules": [
+            "name": "settings.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1alpha1",
-                    "Resources": [
-                        "PodPreset",
-                        "PodPresetList"
+                    "name": "v1alpha1",
+                    "type": "module",
+                    "parentName": "settings.k8s.io",
+                    "children": [
+                        {
+                            "name": "PodPreset",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:settings.k8s.io/v1alpha1:PodPreset"
+                        },
+                        {
+                            "name": "PodPresetList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:settings.k8s.io/v1alpha1:PodPresetList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         },
         {
-            "Name": "storage.k8s.io",
-            "SubModules": [
+            "name": "storage.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "CSIDriver",
-                        "CSIDriverList",
-                        "CSINode",
-                        "CSINodeList",
-                        "StorageClass",
-                        "StorageClassList",
-                        "VolumeAttachment",
-                        "VolumeAttachmentList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "storage.k8s.io",
+                    "children": [
+                        {
+                            "name": "CSIDriver",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:CSIDriver"
+                        },
+                        {
+                            "name": "CSIDriverList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:CSIDriverList"
+                        },
+                        {
+                            "name": "CSINode",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:CSINode"
+                        },
+                        {
+                            "name": "CSINodeList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:CSINodeList"
+                        },
+                        {
+                            "name": "StorageClass",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:StorageClass"
+                        },
+                        {
+                            "name": "StorageClassList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:StorageClassList"
+                        },
+                        {
+                            "name": "VolumeAttachment",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:VolumeAttachment"
+                        },
+                        {
+                            "name": "VolumeAttachmentList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1:VolumeAttachmentList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1alpha1",
-                    "Resources": [
-                        "CSIStorageCapacity",
-                        "CSIStorageCapacityList",
-                        "VolumeAttachment",
-                        "VolumeAttachmentList"
+                    "name": "v1alpha1",
+                    "type": "module",
+                    "parentName": "storage.k8s.io",
+                    "children": [
+                        {
+                            "name": "CSIStorageCapacity",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1alpha1:CSIStorageCapacity"
+                        },
+                        {
+                            "name": "CSIStorageCapacityList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1alpha1:CSIStorageCapacityList"
+                        },
+                        {
+                            "name": "VolumeAttachment",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1alpha1:VolumeAttachment"
+                        },
+                        {
+                            "name": "VolumeAttachmentList",
+                            "type": "resource",
+                            "parentName": "v1alpha1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1alpha1:VolumeAttachmentList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
                 {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "CSIDriver",
-                        "CSIDriverList",
-                        "CSINode",
-                        "CSINodeList",
-                        "CSIStorageCapacity",
-                        "CSIStorageCapacityList",
-                        "StorageClass",
-                        "StorageClassList",
-                        "VolumeAttachment",
-                        "VolumeAttachmentList"
+                    "name": "v1beta1",
+                    "type": "module",
+                    "parentName": "storage.k8s.io",
+                    "children": [
+                        {
+                            "name": "CSIDriver",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:CSIDriver"
+                        },
+                        {
+                            "name": "CSIDriverList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:CSIDriverList"
+                        },
+                        {
+                            "name": "CSINode",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:CSINode"
+                        },
+                        {
+                            "name": "CSINodeList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:CSINodeList"
+                        },
+                        {
+                            "name": "CSIStorageCapacity",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:CSIStorageCapacity"
+                        },
+                        {
+                            "name": "CSIStorageCapacityList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:CSIStorageCapacityList"
+                        },
+                        {
+                            "name": "StorageClass",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:StorageClass"
+                        },
+                        {
+                            "name": "StorageClassList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:StorageClassList"
+                        },
+                        {
+                            "name": "VolumeAttachment",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:VolumeAttachment"
+                        },
+                        {
+                            "name": "VolumeAttachmentList",
+                            "type": "resource",
+                            "parentName": "v1beta1",
+                            "children": null,
+                            "token": "kubernetes:storage.k8s.io/v1beta1:VolumeAttachmentList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 }
-            ]
+            ],
+            "token": ""
         }
     ]
 }

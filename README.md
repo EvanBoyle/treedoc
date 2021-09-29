@@ -37,34 +37,64 @@ Writing filter spec output to: ./azure-native-filter.json
 
 See `./kube-filter.json` or `./azure-native-filter.json` for resulting filter spec.
 
-At a high level, there is a top level entity `Modules` that has a sorted list of `SubModules` and each submodule has a sorted list of `Resources` and `Functions`. For example:
+At a high level, there is a top level array `Nodes` (`name`, `parent`, `type`, `children`) that is sorted by Name. All children are also sorted by `name`. In practice, there are three levels in the hierarchy:
+
+```
+- Module 1
+  - SubModule 1
+    - LeafNode 1 (Resource | Function)
+      ...
+    - LeafNode N
+    ...
+  - SubModule N
+...
+- Module N
+```
 
 ```json
 {
-    "Modules": [
+    "nodes": [
         {
-            "Name": "admissionregistration.k8s.io",
-            "SubModules": [
+            "name": "admissionregistration.k8s.io",
+            "type": "module",
+            "parentName": "",
+            "children": [
                 {
-                    "Name": "v1",
-                    "Resources": [
-                        "MutatingWebhookConfiguration",
-                        "MutatingWebhookConfigurationList",
-                        "ValidatingWebhookConfiguration",
-                        "ValidatingWebhookConfigurationList"
+                    "name": "v1",
+                    "type": "module",
+                    "parentName": "admissionregistration.k8s.io",
+                    "children": [
+                        {
+                            "name": "MutatingWebhookConfiguration",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:MutatingWebhookConfiguration"
+                        },
+                        {
+                            "name": "MutatingWebhookConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:MutatingWebhookConfigurationList"
+                        },
+                        {
+                            "name": "ValidatingWebhookConfiguration",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:ValidatingWebhookConfiguration"
+                        },
+                        {
+                            "name": "ValidatingWebhookConfigurationList",
+                            "type": "resource",
+                            "parentName": "v1",
+                            "children": null,
+                            "token": "kubernetes:admissionregistration.k8s.io/v1:ValidatingWebhookConfigurationList"
+                        }
                     ],
-                    "Functions": null
+                    "token": ""
                 },
-                {
-                    "Name": "v1beta1",
-                    "Resources": [
-                        "MutatingWebhookConfiguration",
-                        "MutatingWebhookConfigurationList",
-                        "ValidatingWebhookConfiguration",
-                        "ValidatingWebhookConfigurationList"
-                    ],
-                    "Functions": null
-                }
             ]
         }
     ]
